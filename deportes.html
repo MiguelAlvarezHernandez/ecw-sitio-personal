@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- deportes.html
+         Miguel Álvarez Hernández. Universidad de Oviedo
+         Estándares y Computación Web - Trabajo II: Sitio Web personal -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Los deportes de Miguel Álvarez Hernández: fútbol y baloncesto, pádel y gimnasio." />
+    <meta name="author" content="Miguel Álvarez Hernández" />
+    <title>Deportes · Miguel Álvarez Hernández</title>
+    <link rel="icon" href="multimedia/imagenes/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="estilo/sitio.css" />
+</head>
+<body>
+    <header>
+        <a href="index.html">Miguel Álvarez</a>
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="deportes.html" aria-current="page">Deportes</a></li>
+                <li><a href="musica.html">Música</a></li>
+                <li><a href="viajes.html">Viajes</a></li>
+                <li><a href="cine.html">Cine y series</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <header>
+            <h1>Deportes</h1>
+            <p>Me gustan todos los deportes: los sigo, los juego y, sobre todo, los entreno.</p>
+        </header>
+
+        <section>
+            <h2>Los que sigo</h2>
+            <p>Si hay partido, lo veo. El fútbol y el baloncesto son los que más sigo, tanto en competiciones nacionales como europeas.</p>
+            <article>
+                <img src="multimedia/imagenes/deportes-futbol.webp" width="1200" height="800" alt="Imagen sobre el fútbol" loading="lazy" />
+                <h3>Fútbol</h3>
+                <ul><li>Lo sigo</li><li>Liga y Europa</li></ul>
+                <p>El deporte rey. Me gusta seguir la liga, las competiciones europeas y las grandes citas de selecciones.</p>
+            </article>
+            <article>
+                <img src="multimedia/imagenes/deportes-baloncesto.webp" width="1200" height="800" alt="Imagen sobre el baloncesto" loading="lazy" />
+                <h3>Baloncesto</h3>
+                <ul><li>Lo sigo</li><li><abbr title="Asociación de Clubs de Baloncesto">ACB</abbr> y <abbr title="National Basketball Association">NBA</abbr></li></ul>
+                <p>Ritmo, táctica y remontadas imposibles. Un partido de baloncesto nunca está decidido hasta el final.</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Los que practico</h2>
+            <article>
+                <img src="multimedia/imagenes/deportes-padel.webp" width="1200" height="800" alt="Imagen sobre el pádel" loading="lazy" />
+                <h3>Pádel</h3>
+                <ul><li>Lo juego</li><li>Con amigos</li></ul>
+                <p>El plan perfecto para desconectar: competitivo, social y muy divertido. Siempre dispuesto a jugar un partido.</p>
+            </article>
+            <article>
+                <img src="multimedia/imagenes/deportes-gimnasio.webp" width="1200" height="800" alt="Imagen sobre el gimnasio" loading="lazy" />
+                <h3>Gimnasio</h3>
+                <ul><li>Lo entreno</li><li>Varias veces por semana</li></ul>
+                <p>Mi rutina fija. Voy varias veces por semana: me ayuda a mantener la disciplina y a rendir mejor en todo lo demás.</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Vídeo</h2>
+            <figure>
+                <video controls preload="metadata" width="960" height="540" poster="multimedia/imagenes/poster-deportes.webp">
+                    <source src="multimedia/video/deportes.webm" type="video/webm" />
+                    <source src="multimedia/video/deportes.mp4" type="video/mp4" />
+                    <track src="multimedia/video/deportes.vtt" kind="captions" srclang="es" label="Español" default />
+                    Tu navegador no puede reproducir este vídeo. <a href="multimedia/video/deportes.mp4">Descarga el vídeo en MP4</a>.
+                </video>
+                <figcaption>Vídeo (8 segundos, sin sonido): animación con el título «Deportes».</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Miguel Álvarez Hernández · <a href="mailto:uo295368@uniovi.es">uo295368@uniovi.es</a></p>
+        <p>Máster Universitario en Ingeniería Web · Universidad de Oviedo · Estándares y Computación Web</p>
+        <p>Imágenes, vídeos y audio generados para esta web.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,56 @@
+Estandares y Computacion Web - Master Universitario en Ingenieria Web
+Universidad de Oviedo - Curso 2026/2027
+Trabajo II - Sitio Web personal
+Miguel Alvarez Hernandez - uo295368@uniovi.es
+
+1. ESTRUCTURA DEL PROYECTO
+   index.html      Inicio: sobre mi (datos personales y foto) y trayectoria.
+   deportes.html   Deportes que sigo y practico. Video.
+   musica.html     Artistas favoritos y podcast (audio con transcripcion).
+   viajes.html     Paises visitados, proximos destinos y video.
+   cine.html       Serie y peliculas favoritas.
+   estilo/         sitio.css, hoja de estilos unica.
+   multimedia/     imagenes/ (WebP y SVG), video/ (WebM, MP4 y subtitulos
+                   WebVTT) y audio/ (MP3 y Ogg).
+
+2. PROCEDIMIENTO DE DESPLIEGUE
+   Sitio estatico, sin compilacion: copiar la carpeta completa en un
+   servidor web y abrir index.html.
+   - Desplegado en IIS (Windows), en C:\inetpub\wwwroot\ecw\.
+     IIS debe tener registrados los tipos MIME de .webp, .webm, .vtt y .ogg.
+   - En local: python3 -m http.server 8000 -> http://localhost:8000/
+
+3. SOFTWARE, HERRAMIENTAS Y VERSIONES
+   - HTML5 (WHATWG HTML Living Standard) y CSS3, sin JavaScript,
+     bibliotecas ni frameworks
+   - Formatos: WebP, SVG, WebM (VP9), MP4 (H.264), MP3, Ogg (Opus), WebVTT
+   - Validacion: W3C Nu Html Checker, W3C CSS Validator y axe-core 4
+   - Servidor: IIS (Windows); pruebas en Chromium 141 (de 320 a 1280 px)
+
+4. EXPLICACIONES ESPECIFICAS
+   Tecnologias y justificacion:
+   - HTML5 y CSS3 puros: son los estandares vistos en la asignatura y el
+     sitio es contenido estatico, sin logica en el cliente. Sin
+     dependencias, carga rapido y funciona en cualquier navegador.
+   - HTML solo semantico (header, nav, main, section, article, figure,
+     dl, ol, table), sin div, clases ni id: el CSS selecciona los
+     elementos por su posicion (main > section, section > article...).
+   - Diseno adaptable con Flexbox, Grid, clamp() y una sola media query.
+   - Video en WebM y MP4 con subtitulos, y audio en MP3 y Ogg con
+     transcripcion: se reproducen en cualquier navegador y son accesibles.
+
+   Accesibilidad (WCAG 2.1 AA y criterios AAA comprobables): contraste
+   del texto >= 7:1, objetivos tactiles de 44 px, lineas de 70 caracteres
+   como maximo, aria-current en el menu, abreviaturas con <abbr> y
+   prefers-reduced-motion.
+
+   La estructura HTML y la hoja de estilos se reutilizan como plantilla en
+   el Trabajo IV.
+
+   Multimedia: la fotografia personal es real; las demas imagenes, los
+   videos y el audio se han generado para este sitio (sin derechos de
+   terceros).
+
+5. URL DE DESPLIEGUE
+   http://156.35.98.22/ecw/trabajo-2-sitio-personal/index.html
+   (accesible desde la red de la Universidad de Oviedo o con su VPN)
