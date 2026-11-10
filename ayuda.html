@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- ayuda.html
+         Miguel Álvarez Hernández. Universidad de Oviedo
+         Estándares y Computación Web - Trabajo II: Sitio Web personal -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Mapa del sitio, ayuda para navegar y preguntas frecuentes de la web de Miguel Álvarez Hernández." />
+    <meta name="author" content="Miguel Álvarez Hernández" />
+    <title>Ayuda y mapa del sitio · Miguel Álvarez Hernández</title>
+    <link rel="icon" href="multimedia/imagenes/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="estilo/sitio.css" />
+</head>
+<body>
+    <a href="#contenido">Saltar al contenido</a>
+    <header>
+        <a href="index.html">Miguel Álvarez</a>
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="deportes.html">Deportes</a></li>
+                <li><a href="musica.html">Música</a></li>
+                <li><a href="viajes.html">Viajes</a></li>
+                <li><a href="cine.html">Cine y series</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="ayuda.html" aria-current="page">Ayuda</a></li>
+            </ul>
+        </nav>
+        <form action="buscar.html" method="get" role="search">
+            <input type="search" name="q" placeholder="Buscar en la web" aria-label="Buscar en la web" required />
+            <button type="submit">Buscar</button>
+        </form>
+    </header>
+
+    <nav aria-label="Migas de pan">
+        <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li aria-current="page">Ayuda y mapa del sitio</li>
+        </ol>
+    </nav>
+
+    <main id="contenido" tabindex="-1">
+        <header>
+            <p>Ayuda</p>
+            <h1>Ayuda y mapa del sitio</h1>
+            <p>Dónde está cada cosa y cómo moverte por la web con el ratón, con el teclado o con el buscador.</p>
+        </header>
+
+        <section>
+            <h2>Mapa del sitio</h2>
+            <article>
+                <h3>Inicio</h3>
+                <p>Quién soy, mi formación, mi trabajo y un resumen de mis intereses.</p>
+                <a href="index.html">Ir a Inicio</a>
+            </article>
+            <article>
+                <h3>Deportes</h3>
+                <p>Los que sigo (fútbol y baloncesto) y los que practico (pádel y gimnasio), con vídeo.</p>
+                <a href="deportes.html">Ir a Deportes</a>
+            </article>
+            <article>
+                <h3>Música</h3>
+                <p>Mis artistas favoritos de urbano latino y un pódcast con transcripción.</p>
+                <a href="musica.html">Ir a Música</a>
+            </article>
+            <article>
+                <h3>Viajes</h3>
+                <p>Países visitados, próximos destinos, tabla resumen y vídeo.</p>
+                <a href="viajes.html">Ir a Viajes</a>
+            </article>
+            <article>
+                <h3>Cine y series</h3>
+                <p>Mi serie favorita y mis películas favoritas.</p>
+                <a href="cine.html">Ir a Cine y series</a>
+            </article>
+            <article>
+                <h3>Contacto</h3>
+                <p>Correo electrónico y formulario para escribirme.</p>
+                <a href="contacto.html">Ir a Contacto</a>
+            </article>
+            <article>
+                <h3>Buscador</h3>
+                <p>Busca cualquier palabra en todas las páginas del sitio.</p>
+                <a href="buscar.html">Ir al buscador</a>
+            </article>
+        </section>
+
+        <section>
+            <h2>Cómo moverte por la web</h2>
+            <p>El menú superior aparece en todas las páginas y marca en cuál estás. Debajo hay unas migas de pan que indican el camino (Inicio y la página actual).</p>
+            <dl>
+                <dt>Con el teclado</dt>
+                <dd>Pulsa la tecla Tab para ir avanzando por los enlaces y Mayús + Tab para retroceder. Lo primero que aparece es el enlace «Saltar al contenido», que te lleva directamente al texto de la página sin recorrer el menú.</dd>
+                <dt>Con el buscador</dt>
+                <dd>Escribe una palabra en el cuadro de la cabecera y pulsa Intro. Verás las páginas y secciones donde aparece.</dd>
+                <dt>En el móvil</dt>
+                <dd>La web se adapta al ancho de la pantalla; el menú se reparte en varias líneas.</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>Preguntas frecuentes</h2>
+            <details>
+                <summary>¿Cómo busco algo en la web?</summary>
+                <p>Usa el cuadro «Buscar en la web» de la cabecera. Si no te devuelve nada, prueba con una sola palabra o consulta el mapa del sitio de esta página.</p>
+            </details>
+            <details>
+                <summary>¿Los vídeos y el audio son accesibles?</summary>
+                <p>Los vídeos llevan subtítulos en español y el audio tiene una transcripción desplegable en la página de Música.</p>
+            </details>
+            <details>
+                <summary>¿Cuándo se actualizó la web por última vez?</summary>
+                <p>La fecha de la última actualización aparece al final de todas las páginas.</p>
+            </details>
+            <details>
+                <summary>¿Cómo puedo ponerme en contacto?</summary>
+                <p>Desde la página de <a href="contacto.html">Contacto</a>, con el formulario o escribiendo al correo electrónico.</p>
+            </details>
+            <details>
+                <summary>¿Hay versión en inglés?</summary>
+                <p>Sí. El enlace «English» del pie de página lleva a la versión en inglés.</p>
+            </details>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Miguel Álvarez Hernández · <a href="mailto:uo295368@uniovi.es">uo295368@uniovi.es</a></p>
+        <p>Última actualización: <time datetime="2026-11-10">10 de noviembre de 2026</time></p>
+        <p><a href="ayuda.html">Ayuda y mapa del sitio</a> · <a href="buscar.html">Buscador</a> · <a href="en/index.html" hreflang="en" lang="en">English</a></p>
+        <p>Máster Universitario en Ingeniería Web · Universidad de Oviedo · Estándares y Computación Web</p>
+        <p>Imágenes, vídeos y audio generados para esta web.</p>
+    </footer>
+</body>
+</html>

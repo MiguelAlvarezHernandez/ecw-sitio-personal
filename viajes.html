@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="estilo/sitio.css" />
 </head>
 <body>
+    <a href="#contenido">Saltar al contenido</a>
     <header>
         <a href="index.html">Miguel Álvarez</a>
         <nav aria-label="Navegación principal">
@@ -22,11 +23,24 @@
                 <li><a href="musica.html">Música</a></li>
                 <li><a href="viajes.html" aria-current="page">Viajes</a></li>
                 <li><a href="cine.html">Cine y series</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="ayuda.html">Ayuda</a></li>
             </ul>
         </nav>
+        <form action="buscar.html" method="get" role="search">
+            <input type="search" name="q" placeholder="Buscar en la web" aria-label="Buscar en la web" required />
+            <button type="submit">Buscar</button>
+        </form>
     </header>
 
-    <main>
+    <nav aria-label="Migas de pan">
+        <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li aria-current="page">Viajes</li>
+        </ol>
+    </nav>
+
+    <main id="contenido" tabindex="-1">
         <header>
             <h1>Viajes</h1>
             <p>Seis países, muchos rincones de España y una lista de destinos pendientes. Cada viaje me ha dejado una historia.</p>
@@ -122,7 +136,7 @@
         <section>
             <h2>Vídeo</h2>
             <figure>
-                <video controls preload="metadata" width="960" height="540" poster="multimedia/imagenes/poster-viajes.webp">
+                <video controls aria-label="Vídeo de 8 segundos, sin sonido, con subtítulos" preload="metadata" width="960" height="540" poster="multimedia/imagenes/poster-viajes.webp">
                     <source src="multimedia/video/viajes.webm" type="video/webm" />
                     <source src="multimedia/video/viajes.mp4" type="video/mp4" />
                     <track src="multimedia/video/viajes.vtt" kind="captions" srclang="es" label="Español" default />
@@ -135,6 +149,8 @@
 
     <footer>
         <p>© 2026 Miguel Álvarez Hernández · <a href="mailto:uo295368@uniovi.es">uo295368@uniovi.es</a></p>
+        <p>Última actualización: <time datetime="2026-11-10">10 de noviembre de 2026</time></p>
+        <p><a href="ayuda.html">Ayuda y mapa del sitio</a> · <a href="buscar.html">Buscador</a> · <a href="en/index.html" hreflang="en" lang="en">English</a></p>
         <p>Máster Universitario en Ingeniería Web · Universidad de Oviedo · Estándares y Computación Web</p>
         <p>Imágenes, vídeos y audio generados para esta web.</p>
     </footer>

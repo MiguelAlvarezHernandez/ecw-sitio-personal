@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- buscar.html
+         Miguel Álvarez Hernández. Universidad de Oviedo
+         Estándares y Computación Web - Trabajo II: Sitio Web personal -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Buscador de la web de Miguel Álvarez Hernández." />
+    <meta name="author" content="Miguel Álvarez Hernández" />
+    <title>Buscador · Miguel Álvarez Hernández</title>
+    <link rel="icon" href="multimedia/imagenes/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="estilo/sitio.css" />
+    <script src="js/indice.js" defer></script>
+    <script src="js/buscador.js" defer></script>
+</head>
+<body>
+    <a href="#contenido">Saltar al contenido</a>
+    <header>
+        <a href="index.html">Miguel Álvarez</a>
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="deportes.html">Deportes</a></li>
+                <li><a href="musica.html">Música</a></li>
+                <li><a href="viajes.html">Viajes</a></li>
+                <li><a href="cine.html">Cine y series</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="ayuda.html">Ayuda</a></li>
+            </ul>
+        </nav>
+        <form action="buscar.html" method="get" role="search">
+            <input type="search" name="q" placeholder="Buscar en la web" aria-label="Buscar en la web" required />
+            <button type="submit">Buscar</button>
+        </form>
+    </header>
+
+    <nav aria-label="Migas de pan">
+        <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li aria-current="page">Buscador</li>
+        </ol>
+    </nav>
+
+    <main id="contenido" tabindex="-1">
+        <header>
+            <p>Buscador</p>
+            <h1>Buscar en el sitio</h1>
+            <p>Escribe una o varias palabras y verás las páginas y secciones donde aparecen.</p>
+        </header>
+
+        <section>
+            <h2>Resultados</h2>
+            <form action="buscar.html" method="get" role="search">
+                <input type="search" name="q" placeholder="Buscar en la web" aria-label="Buscar en la web" required />
+                <button type="submit">Buscar</button>
+            </form>
+            <p aria-live="polite">Escribe algo para empezar a buscar.</p>
+            <noscript><p>El buscador necesita JavaScript. Mientras tanto puedes usar el <a href="ayuda.html">mapa del sitio</a>.</p></noscript>
+            <ol></ol>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Miguel Álvarez Hernández · <a href="mailto:uo295368@uniovi.es">uo295368@uniovi.es</a></p>
+        <p>Última actualización: <time datetime="2026-11-10">10 de noviembre de 2026</time></p>
+        <p><a href="ayuda.html">Ayuda y mapa del sitio</a> · <a href="buscar.html">Buscador</a> · <a href="en/index.html" hreflang="en" lang="en">English</a></p>
+        <p>Máster Universitario en Ingeniería Web · Universidad de Oviedo · Estándares y Computación Web</p>
+        <p>Imágenes, vídeos y audio generados para esta web.</p>
+    </footer>
+</body>
+</html>

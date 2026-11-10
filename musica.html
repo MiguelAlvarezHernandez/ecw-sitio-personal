@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="estilo/sitio.css" />
 </head>
 <body>
+    <a href="#contenido">Saltar al contenido</a>
     <header>
         <a href="index.html">Miguel Álvarez</a>
         <nav aria-label="Navegación principal">
@@ -22,11 +23,24 @@
                 <li><a href="musica.html" aria-current="page">Música</a></li>
                 <li><a href="viajes.html">Viajes</a></li>
                 <li><a href="cine.html">Cine y series</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="ayuda.html">Ayuda</a></li>
             </ul>
         </nav>
+        <form action="buscar.html" method="get" role="search">
+            <input type="search" name="q" placeholder="Buscar en la web" aria-label="Buscar en la web" required />
+            <button type="submit">Buscar</button>
+        </form>
     </header>
 
-    <main>
+    <nav aria-label="Migas de pan">
+        <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li aria-current="page">Música</li>
+        </ol>
+    </nav>
+
+    <main id="contenido" tabindex="-1">
         <header>
             <h1>Música</h1>
             <p>El urbano latino es el género que más escucho: reguetón, trap y <abbr title="rhythm and blues">R&amp;B</abbr> en español.</p>
@@ -80,6 +94,8 @@
 
     <footer>
         <p>© 2026 Miguel Álvarez Hernández · <a href="mailto:uo295368@uniovi.es">uo295368@uniovi.es</a></p>
+        <p>Última actualización: <time datetime="2026-11-10">10 de noviembre de 2026</time></p>
+        <p><a href="ayuda.html">Ayuda y mapa del sitio</a> · <a href="buscar.html">Buscador</a> · <a href="en/index.html" hreflang="en" lang="en">English</a></p>
         <p>Máster Universitario en Ingeniería Web · Universidad de Oviedo · Estándares y Computación Web</p>
         <p>Imágenes, vídeos y audio generados para esta web.</p>
     </footer>

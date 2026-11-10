@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- contacto.html
+         Miguel Álvarez Hernández. Universidad de Oviedo
+         Estándares y Computación Web - Trabajo II: Sitio Web personal -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Cómo contactar con Miguel Álvarez Hernández: correo electrónico y formulario." />
+    <meta name="author" content="Miguel Álvarez Hernández" />
+    <title>Contacto · Miguel Álvarez Hernández</title>
+    <link rel="icon" href="multimedia/imagenes/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="estilo/sitio.css" />
+</head>
+<body>
+    <a href="#contenido">Saltar al contenido</a>
+    <header>
+        <a href="index.html">Miguel Álvarez</a>
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="deportes.html">Deportes</a></li>
+                <li><a href="musica.html">Música</a></li>
+                <li><a href="viajes.html">Viajes</a></li>
+                <li><a href="cine.html">Cine y series</a></li>
+                <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+                <li><a href="ayuda.html">Ayuda</a></li>
+            </ul>
+        </nav>
+        <form action="buscar.html" method="get" role="search">
+            <input type="search" name="q" placeholder="Buscar en la web" aria-label="Buscar en la web" required />
+            <button type="submit">Buscar</button>
+        </form>
+    </header>
+
+    <nav aria-label="Migas de pan">
+        <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li aria-current="page">Contacto</li>
+        </ol>
+    </nav>
+
+    <main id="contenido" tabindex="-1">
+        <header>
+            <p>Hablemos</p>
+            <h1>Contacto</h1>
+            <p>Puedes escribirme un correo o rellenar este formulario, que abre tu programa de correo con el mensaje ya preparado.</p>
+        </header>
+
+        <section>
+            <h2>Correo electrónico</h2>
+            <dl>
+                <dt>Correo</dt>
+                <dd><a href="mailto:uo295368@uniovi.es">uo295368@uniovi.es</a> (Universidad de Oviedo)</dd>
+                <dt>Respuesta</dt>
+                <dd>Respondo en cuanto puedo, normalmente en un par de días.</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>Formulario</h2>
+            <form action="mailto:uo295368@uniovi.es" method="post" enctype="text/plain">
+                <label>Tu nombre
+                    <input type="text" name="nombre" autocomplete="name" required />
+                </label>
+                <label>Tu correo
+                    <input type="email" name="correo" autocomplete="email" required />
+                </label>
+                <label>Mensaje
+                    <textarea name="mensaje" rows="6" required></textarea>
+                </label>
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Miguel Álvarez Hernández · <a href="mailto:uo295368@uniovi.es">uo295368@uniovi.es</a></p>
+        <p>Última actualización: <time datetime="2026-11-10">10 de noviembre de 2026</time></p>
+        <p><a href="ayuda.html">Ayuda y mapa del sitio</a> · <a href="buscar.html">Buscador</a> · <a href="en/index.html" hreflang="en" lang="en">English</a></p>
+        <p>Máster Universitario en Ingeniería Web · Universidad de Oviedo · Estándares y Computación Web</p>
+        <p>Imágenes, vídeos y audio generados para esta web.</p>
+    </footer>
+</body>
+</html>
