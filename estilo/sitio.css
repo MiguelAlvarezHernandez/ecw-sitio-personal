@@ -282,6 +282,7 @@ table {
 caption,
 th,
 td {
+    overflow-wrap: anywhere;
     padding: 0.6rem;
     border-bottom: 1px solid var(--borde);
     text-align: left;

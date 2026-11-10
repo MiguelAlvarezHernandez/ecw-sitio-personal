@@ -12,7 +12,7 @@ var INDICE = [
   "pagina": "Cine y series",
   "seccion": "Mi serie favorita",
   "url": "cine.html",
-  "texto": "Juego de Tronos, mi serie favorita. Juego de Tronos 2011–2019 8 temporadas Indiscutiblemente, mi serie favorita. Basada en la saga «Canción de hielo y fuego» de George R. R. Martin, mezcla intriga política, grandes batallas y personajes que no se olvidan."
+  "texto": "Juego de Tronos, mi serie favorita. En la foto, las murallas de Dubrovnik, donde se rodó parte de la serie. Juego de Tronos 2011–2019 8 temporadas Indiscutiblemente, mi serie favorita. Basada en la saga «Canción de hielo y fuego» de George R. R. Martin, mezcla intriga política, grandes batallas y personajes que no se olvidan."
  },
  {
   "idioma": "es",
@@ -26,7 +26,7 @@ var INDICE = [
   "pagina": "Contacto",
   "seccion": "Contacto",
   "url": "contacto.html",
-  "texto": "Hablemos Puedes escribirme un correo o rellenar este formulario, que abre tu programa de correo con el mensaje ya preparado."
+  "texto": "Hablemos Puedes escribirme un correo, buscarme en LinkedIn o GitHub, o rellenar el formulario, que abre tu programa de correo con el mensaje ya preparado."
  },
  {
   "idioma": "es",
@@ -34,6 +34,13 @@ var INDICE = [
   "seccion": "Correo electrónico",
   "url": "contacto.html",
   "texto": "Correo Respuesta Respondo en cuanto puedo, normalmente en un par de días."
+ },
+ {
+  "idioma": "es",
+  "pagina": "Contacto",
+  "seccion": "Perfiles profesionales",
+  "url": "contacto.html",
+  "texto": "LinkedIn GitHub"
  },
  {
   "idioma": "es",
@@ -75,7 +82,7 @@ var INDICE = [
   "pagina": "Miguel Álvarez Hernández",
   "seccion": "Sobre mí",
   "url": "index.html",
-  "texto": "Miguel Álvarez Hernández Fuera del trabajo me gustan todos los deportes, la música urbana latina, viajar y ver series y películas. De todo eso va esta web. Nombre Miguel Apellidos Álvarez Hernández Email Ciudad Oviedo (Asturias) Estudios Grado en Ingeniería Informática del Software · Máster Universitario en Ingeniería Web (en curso) Trabajo Junior Engineer en NTT Data"
+  "texto": "Miguel Álvarez Hernández Fuera del trabajo me gustan todos los deportes, la música urbana latina, viajar y ver series y películas. De todo eso va esta web. Nombre Miguel Apellidos Álvarez Hernández Email Ciudad Oviedo (Asturias) Estudios Grado en Ingeniería Informática del Software · Máster Universitario en Ingeniería Web (en curso) Trabajo Junior Engineer en NTT Data LinkedIn GitHub"
  },
  {
   "idioma": "es",
@@ -152,7 +159,7 @@ var INDICE = [
   "pagina": "Film and TV",
   "seccion": "My favourite series",
   "url": "en/cinema.html",
-  "texto": "Game of Thrones, my favourite series. Game of Thrones 2011–2019 8 seasons Without a doubt, my favourite series. Based on George R. R. Martin's saga “A Song of Ice and Fire”, it mixes political intrigue, big battles and unforgettable characters."
+  "texto": "Game of Thrones, my favourite series. In the photo, the walls of Dubrovnik, where part of the series was filmed. Game of Thrones 2011–2019 8 seasons Without a doubt, my favourite series. Based on George R. R. Martin's saga “A Song of Ice and Fire”, it mixes political intrigue, big battles and unforgettable characters."
  },
  {
   "idioma": "en",
@@ -166,7 +173,7 @@ var INDICE = [
   "pagina": "Contact",
   "seccion": "Contact",
   "url": "en/contact.html",
-  "texto": "Let's talk You can write me an email or fill in this form, which opens your email program with the message ready."
+  "texto": "Let's talk You can write me an email, find me on LinkedIn or GitHub, or fill in the form, which opens your email program with the message ready."
  },
  {
   "idioma": "en",
@@ -174,6 +181,13 @@ var INDICE = [
   "seccion": "Email",
   "url": "en/contact.html",
   "texto": "Email Reply I reply as soon as I can, usually within a couple of days."
+ },
+ {
+  "idioma": "en",
+  "pagina": "Contact",
+  "seccion": "Professional profiles",
+  "url": "en/contact.html",
+  "texto": "LinkedIn GitHub"
  },
  {
   "idioma": "en",
@@ -187,7 +201,7 @@ var INDICE = [
   "pagina": "Miguel Álvarez Hernández",
   "seccion": "About me",
   "url": "en/index.html",
-  "texto": "Miguel Álvarez Hernández Outside work I like all sports, Latin urban music, travelling and watching series and films. That is what this website is about. First name Miguel Surnames Álvarez Hernández Email City Oviedo (Asturias) Studies Degree in Software Engineering · Master's Degree in Web Engineering (ongoing) Job Junior Engineer at NTT Data"
+  "texto": "Miguel Álvarez Hernández Outside work I like all sports, Latin urban music, travelling and watching series and films. That is what this website is about. First name Miguel Surnames Álvarez Hernández Email City Oviedo (Asturias) Studies Degree in Software Engineering · Master's Degree in Web Engineering (ongoing) Job Junior Engineer at NTT Data LinkedIn GitHub"
  },
  {
   "idioma": "en",
