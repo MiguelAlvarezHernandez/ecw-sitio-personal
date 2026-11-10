@@ -33,7 +33,7 @@ var INDICE = [
   "pagina": "Contacto",
   "seccion": "Correo electrónico",
   "url": "contacto.html",
-  "texto": "Universidad de Oviedo Respondo en cuanto puedo, normalmente en un par de días."
+  "texto": "Correo Respuesta Respondo en cuanto puedo, normalmente en un par de días."
  },
  {
   "idioma": "es",
@@ -139,5 +139,145 @@ var INDICE = [
   "seccion": "Vídeo",
   "url": "viajes.html",
   "texto": "Vídeo (8 segundos, sin sonido): animación con el título «Viajes»."
+ },
+ {
+  "idioma": "en",
+  "pagina": "Film and TV",
+  "seccion": "Film and TV",
+  "url": "en/cinema.html",
+  "texto": "I have watched a huge number of films and series. If I have to choose, I pick the series."
+ },
+ {
+  "idioma": "en",
+  "pagina": "Film and TV",
+  "seccion": "My favourite series",
+  "url": "en/cinema.html",
+  "texto": "Game of Thrones, my favourite series. Game of Thrones 2011–2019 8 seasons Without a doubt, my favourite series. Based on George R. R. Martin's saga “A Song of Ice and Fire”, it mixes political intrigue, big battles and unforgettable characters."
+ },
+ {
+  "idioma": "en",
+  "pagina": "Film and TV",
+  "seccion": "My favourite films",
+  "url": "en/cinema.html",
+  "texto": "Interstellar 2014 Christopher Nolan Science, emotion and an unforgettable soundtrack. A journey through space and time that leaves nobody indifferent. Gladiator 2000 Ridley Scott Pure epic: Maximus's story is one of those you watch again and again."
+ },
+ {
+  "idioma": "en",
+  "pagina": "Contact",
+  "seccion": "Contact",
+  "url": "en/contact.html",
+  "texto": "Let's talk You can write me an email or fill in this form, which opens your email program with the message ready."
+ },
+ {
+  "idioma": "en",
+  "pagina": "Contact",
+  "seccion": "Email",
+  "url": "en/contact.html",
+  "texto": "Email Reply I reply as soon as I can, usually within a couple of days."
+ },
+ {
+  "idioma": "en",
+  "pagina": "Miguel Álvarez Hernández",
+  "seccion": "Miguel Álvarez Hernández",
+  "url": "en/index.html",
+  "texto": "Software engineer · Oviedo Web development, daily sport, urban music and good stories on screen. Welcome to my corner of the Web."
+ },
+ {
+  "idioma": "en",
+  "pagina": "Miguel Álvarez Hernández",
+  "seccion": "About me",
+  "url": "en/index.html",
+  "texto": "Miguel Álvarez Hernández Outside work I like all sports, Latin urban music, travelling and watching series and films. That is what this website is about. First name Miguel Surnames Álvarez Hernández Email City Oviedo (Asturias) Studies Degree in Software Engineering · Master's Degree in Web Engineering (ongoing) Job Junior Engineer at NTT Data"
+ },
+ {
+  "idioma": "en",
+  "pagina": "Miguel Álvarez Hernández",
+  "seccion": "Background",
+  "url": "en/index.html",
+  "texto": "Degree in Software Engineering University of Oviedo · School of Computer Engineering. Junior Engineer at NTT Data Software development on projects for large clients. Master's Degree in Web Engineering University of Oviedo · 2026/2027 academic year (ongoing)."
+ },
+ {
+  "idioma": "en",
+  "pagina": "Miguel Álvarez Hernández",
+  "seccion": "My interests",
+  "url": "en/index.html",
+  "texto": "Four things that take up my free time. Open each one to find out more. Sports Football and basketball on TV; padel and gym first-hand. Music Latin urban: Mora, Quevedo, Bad Bunny and Jay Wheeler. Podcast included. Travel Mexico, France, Ireland, Portugal, Andorra and Spain… with New York, Tokyo or Switzerland on the list. Film and TV Game of Thrones, Interstellar, Gladiator… and many hours of series."
+ },
+ {
+  "idioma": "en",
+  "pagina": "Music",
+  "seccion": "My favourite artists",
+  "url": "en/music.html",
+  "texto": "M Mora Puerto Rico Reggaeton and trap One of the most personal voices of the genre, with a melodic, dark sound that hooks you from the first listen. Q Quevedo Canary Islands Urban The Canarian artist who conquered the world with his session with Bizarrap. A pride of urban music made in Spain. B Bad Bunny Puerto Rico Reggaeton and trap One of the most listened-to artists on the planet, able to reinvent himself on every album. J Jay Wheeler Puerto Rico The romantic voice of urban music: heartbreak songs with an unmistakable style."
+ },
+ {
+  "idioma": "en",
+  "pagina": "Music",
+  "seccion": "Podcast",
+  "url": "en/music.html",
+  "texto": "An episode to listen to while you browse the site. Audio (30 seconds): urban-style instrumental track. Transcript This audio contains no voice: it is an instrumental track with chords and urban-rhythm percussion."
+ },
+ {
+  "idioma": "en",
+  "pagina": "Sports",
+  "seccion": "Sports",
+  "url": "en/sports.html",
+  "texto": "I like all sports: I follow them, I play them and, above all, I train."
+ },
+ {
+  "idioma": "en",
+  "pagina": "Sports",
+  "seccion": "The ones I follow",
+  "url": "en/sports.html",
+  "texto": "If there is a match, I watch it. Football and basketball are the ones I follow most, in both national and European competitions. Football I follow it League and Europe The king of sports. I like following the league, the European competitions and the big national-team events. Basketball I follow it Rhythm, tactics and impossible comebacks. A basketball game is never decided until the end."
+ },
+ {
+  "idioma": "en",
+  "pagina": "Sports",
+  "seccion": "The ones I play",
+  "url": "en/sports.html",
+  "texto": "Padel I play it With friends The perfect plan to switch off: competitive, social and great fun. Always up for a game. Gym I train there Several times a week My fixed routine. I go several times a week: it helps me stay disciplined and perform better in everything else."
+ },
+ {
+  "idioma": "en",
+  "pagina": "Sports",
+  "seccion": "Video",
+  "url": "en/sports.html",
+  "texto": "Video (8 seconds, no sound): animation with the title “Sports”."
+ },
+ {
+  "idioma": "en",
+  "pagina": "Travel",
+  "seccion": "Travel",
+  "url": "en/travel.html",
+  "texto": "Six countries, many corners of Spain and a list of pending destinations. Every trip has left me with a story."
+ },
+ {
+  "idioma": "en",
+  "pagina": "Travel",
+  "seccion": "Where I have been",
+  "url": "en/travel.html",
+  "texto": "Spain Europe At home My country and the one I know best: from north to south, there is always a new corner to discover. Portugal Europe Neighbours So close and so different: its coast, its food and its people make me always want to go back. France Europe Culture History, art and cities with a special charm on the other side of the Pyrenees. Andorra Europe Mountains A small country among the mountains, perfect for a getaway in the heart of the Pyrenees. Ireland Europe Green landscapes Green landscapes, cliffs and a unique atmosphere in its streets and pubs. Mexico America My farthest trip Across the Atlantic: colours, flavours and a culture that hooks you from day one."
+ },
+ {
+  "idioma": "en",
+  "pagina": "Travel",
+  "seccion": "Next destinations",
+  "url": "en/travel.html",
+  "texto": "The list of places I really want to visit. One by one they will move to the section above. NY New York United States America The city that never sleeps: skyscrapers, Central Park and a rhythm I have only seen in films and series. LA Los Angeles United States America Hollywood, Pacific beaches and the mecca of the film and music I love so much. TK Tokyo Japan Asia Tradition and future on the same street: technology, temples and a completely different culture. CH Switzerland Europe Mountains The Alps, postcard lakes and quiet cities among the mountains. A paradise for landscape lovers."
+ },
+ {
+  "idioma": "en",
+  "pagina": "Travel",
+  "seccion": "Summary",
+  "url": "en/travel.html",
+  "texto": "Countries visited, continent and official language Country Continent Official language Spain Europe English Portugal Europe Portuguese France Europe French Andorra Europe Catalan Ireland Europe Irish and English Mexico America Spanish (de facto)"
+ },
+ {
+  "idioma": "en",
+  "pagina": "Travel",
+  "seccion": "Video",
+  "url": "en/travel.html",
+  "texto": "Video (8 seconds, no sound): animation with the title “Travel”."
  }
 ];

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- en/contact.html
+         Miguel Álvarez Hernández. Universidad de Oviedo
+         Estándares y Computación Web - Trabajo II: Sitio Web personal -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="How to contact Miguel Álvarez Hernández: email and contact form." />
+    <meta name="author" content="Miguel Álvarez Hernández" />
+    <title>Contact · Miguel Álvarez Hernández</title>
+    <link rel="icon" href="../multimedia/imagenes/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../estilo/sitio.css" />
+</head>
+<body>
+    <a href="#contenido">Skip to content</a>
+    <header>
+        <a href="index.html">Miguel Álvarez</a>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sports.html">Sports</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="travel.html">Travel</a></li>
+                <li><a href="cinema.html">Film and TV</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="../contacto.html" hreflang="es" lang="es">Español</a></li>
+            </ul>
+        </nav>
+        <form action="search.html" method="get" role="search">
+            <input type="search" name="q" placeholder="Search the site" aria-label="Search the site" required />
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    <nav aria-label="Breadcrumb">
+        <ol>
+            <li><a href="index.html">Home</a></li>
+            <li aria-current="page">Contact</li>
+        </ol>
+    </nav>
+
+    <main id="contenido" tabindex="-1">
+        <header>
+            <p>Let's talk</p>
+            <h1>Contact</h1>
+            <p>You can write me an email or fill in this form, which opens your email program with the message ready.</p>
+        </header>
+
+        <section>
+            <h2>Email</h2>
+            <dl>
+                <dt>Email</dt>
+                <dd><a href="mailto:uo295368@uniovi.es">uo295368@uniovi.es</a> (University of Oviedo)</dd>
+                <dt>Reply</dt>
+                <dd>I reply as soon as I can, usually within a couple of days.</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>Form</h2>
+            <form action="mailto:uo295368@uniovi.es" method="post" enctype="text/plain">
+                <label>Your name
+                    <input type="text" name="nombre" autocomplete="name" required />
+                </label>
+                <label>Your email
+                    <input type="email" name="correo" autocomplete="email" required />
+                </label>
+                <label>Message
+                    <textarea name="mensaje" rows="6" required></textarea>
+                </label>
+                <button type="submit">Send message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Miguel Álvarez Hernández · <a href="mailto:uo295368@uniovi.es">uo295368@uniovi.es</a></p>
+        <p>Last updated: <time datetime="2026-11-10">10 November 2026</time></p>
+        <p><a href="help.html">Help and site map</a> · <a href="search.html">Search</a> · <a href="../contacto.html" hreflang="es" lang="es">Español</a></p>
+        <p>Master's Degree in Web Engineering · University of Oviedo · Web Standards and Computing</p>
+        <p>Images, videos and audio generated for this website.</p>
+    </footer>
+</body>
+</html>

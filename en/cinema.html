@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- en/cinema.html
+         Miguel Álvarez Hernández. Universidad de Oviedo
+         Estándares y Computación Web - Trabajo II: Sitio Web personal -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Miguel Álvarez Hernández's favourite films and series: Game of Thrones, Interstellar and Gladiator." />
+    <meta name="author" content="Miguel Álvarez Hernández" />
+    <title>Film and TV · Miguel Álvarez Hernández</title>
+    <link rel="icon" href="../multimedia/imagenes/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../estilo/sitio.css" />
+</head>
+<body>
+    <a href="#contenido">Skip to content</a>
+    <header>
+        <a href="index.html">Miguel Álvarez</a>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sports.html">Sports</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="travel.html">Travel</a></li>
+                <li><a href="cinema.html" aria-current="page">Film and TV</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="../cine.html" hreflang="es" lang="es">Español</a></li>
+            </ul>
+        </nav>
+        <form action="search.html" method="get" role="search">
+            <input type="search" name="q" placeholder="Search the site" aria-label="Search the site" required />
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    <nav aria-label="Breadcrumb">
+        <ol>
+            <li><a href="index.html">Home</a></li>
+            <li aria-current="page">Film and TV</li>
+        </ol>
+    </nav>
+
+    <main id="contenido" tabindex="-1">
+        <header>
+            <h1>Film and TV</h1>
+            <p>I have watched a huge number of films and series. If I have to choose, I pick the series.</p>
+        </header>
+
+        <section>
+            <h2>My favourite series</h2>
+            <article>
+                <figure>
+                    <img src="../multimedia/imagenes/cine-juego-de-tronos.webp" width="1200" height="800" alt="Image about Game of Thrones" loading="lazy" />
+                    <figcaption>Game of Thrones, my favourite series.</figcaption>
+                </figure>
+                <h3>Game of Thrones</h3>
+                <ul><li><abbr title="Home Box Office">HBO</abbr></li><li>2011–2019</li><li>8 seasons</li></ul>
+                <p>Without a doubt, my favourite series. Based on George R. R. Martin's saga “A Song of Ice and Fire”, it mixes political intrigue, big battles and unforgettable characters.</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>My favourite films</h2>
+            <article>
+                <img src="../multimedia/imagenes/cine-interstellar.webp" width="1200" height="800" alt="Image about Interstellar" loading="lazy" />
+                <h3>Interstellar</h3>
+                <ul><li>2014</li><li>Christopher Nolan</li></ul>
+                <p>Science, emotion and an unforgettable soundtrack. A journey through space and time that leaves nobody indifferent.</p>
+            </article>
+            <article>
+                <img src="../multimedia/imagenes/cine-gladiator.webp" width="1200" height="800" alt="Image about Gladiator" loading="lazy" />
+                <h3>Gladiator</h3>
+                <ul><li>2000</li><li>Ridley Scott</li></ul>
+                <p>Pure epic: Maximus's story is one of those you watch again and again.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Miguel Álvarez Hernández · <a href="mailto:uo295368@uniovi.es">uo295368@uniovi.es</a></p>
+        <p>Last updated: <time datetime="2026-11-10">10 November 2026</time></p>
+        <p><a href="help.html">Help and site map</a> · <a href="search.html">Search</a> · <a href="../cine.html" hreflang="es" lang="es">Español</a></p>
+        <p>Master's Degree in Web Engineering · University of Oviedo · Web Standards and Computing</p>
+        <p>Images, videos and audio generated for this website.</p>
+    </footer>
+</body>
+</html>

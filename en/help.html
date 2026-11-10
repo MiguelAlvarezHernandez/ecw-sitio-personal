@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- en/help.html
+         Miguel Álvarez Hernández. Universidad de Oviedo
+         Estándares y Computación Web - Trabajo II: Sitio Web personal -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Site map, navigation help and frequently asked questions of Miguel Álvarez Hernández's website." />
+    <meta name="author" content="Miguel Álvarez Hernández" />
+    <title>Help and site map · Miguel Álvarez Hernández</title>
+    <link rel="icon" href="../multimedia/imagenes/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../estilo/sitio.css" />
+</head>
+<body>
+    <a href="#contenido">Skip to content</a>
+    <header>
+        <a href="index.html">Miguel Álvarez</a>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sports.html">Sports</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="travel.html">Travel</a></li>
+                <li><a href="cinema.html">Film and TV</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="help.html" aria-current="page">Help</a></li>
+                <li><a href="../ayuda.html" hreflang="es" lang="es">Español</a></li>
+            </ul>
+        </nav>
+        <form action="search.html" method="get" role="search">
+            <input type="search" name="q" placeholder="Search the site" aria-label="Search the site" required />
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    <nav aria-label="Breadcrumb">
+        <ol>
+            <li><a href="index.html">Home</a></li>
+            <li aria-current="page">Help and site map</li>
+        </ol>
+    </nav>
+
+    <main id="contenido" tabindex="-1">
+        <header>
+            <p>Help</p>
+            <h1>Help and site map</h1>
+            <p>Where everything is and how to move around the site with the mouse, the keyboard or the search box.</p>
+        </header>
+
+        <section>
+            <h2>Site map</h2>
+            <article>
+                <h3>Home</h3>
+                <p>Who I am, my education, my job and a summary of my interests.</p>
+                <a href="index.html">Go to Home</a>
+            </article>
+            <article>
+                <h3>Sports</h3>
+                <p>The ones I follow (football and basketball) and the ones I play (padel and gym), with video.</p>
+                <a href="sports.html">Go to Sports</a>
+            </article>
+            <article>
+                <h3>Music</h3>
+                <p>My favourite Latin urban artists and a podcast with transcript.</p>
+                <a href="music.html">Go to Music</a>
+            </article>
+            <article>
+                <h3>Travel</h3>
+                <p>Countries visited, next destinations, summary table and video.</p>
+                <a href="travel.html">Go to Travel</a>
+            </article>
+            <article>
+                <h3>Film and TV</h3>
+                <p>My favourite series and my favourite films.</p>
+                <a href="cinema.html">Go to Film and TV</a>
+            </article>
+            <article>
+                <h3>Contact</h3>
+                <p>Email and a form to write to me.</p>
+                <a href="contact.html">Go to Contact</a>
+            </article>
+            <article>
+                <h3>Search</h3>
+                <p>Search any word across all the pages of the site.</p>
+                <a href="search.html">Go to search</a>
+            </article>
+        </section>
+
+        <section>
+            <h2>How to move around the site</h2>
+            <p>The top menu appears on every page and shows which one you are on. Below it, a breadcrumb shows the path (Home and the current page).</p>
+            <dl>
+                <dt>With the keyboard</dt>
+                <dd>Press the Tab key to move through the links and Shift + Tab to go back. The first thing that appears is the “Skip to content” link, which takes you straight to the page text without going through the menu.</dd>
+                <dt>With the search box</dt>
+                <dd>Type a word in the box in the header and press Enter. You will see the pages and sections where it appears.</dd>
+                <dt>On mobile</dt>
+                <dd>The site adapts to the screen width; the menu is spread over several lines.</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>Frequently asked questions</h2>
+            <details>
+                <summary>How do I search for something on the site?</summary>
+                <p>Use the “Search the site” box in the header. If it returns nothing, try a single word or check the site map on this page.</p>
+            </details>
+            <details>
+                <summary>Are the videos and audio accessible?</summary>
+                <p>The videos have subtitles and the audio has a collapsible transcript on the Music page.</p>
+            </details>
+            <details>
+                <summary>When was the site last updated?</summary>
+                <p>The date of the last update appears at the bottom of every page.</p>
+            </details>
+            <details>
+                <summary>How can I get in touch?</summary>
+                <p>From the <a href="contact.html">Contact</a> page, with the form or by writing to the email address.</p>
+            </details>
+            <details>
+                <summary>Is there a Spanish version?</summary>
+                <p>Yes. The “Español” link in the footer or in the menu takes you to the Spanish version.</p>
+            </details>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Miguel Álvarez Hernández · <a href="mailto:uo295368@uniovi.es">uo295368@uniovi.es</a></p>
+        <p>Last updated: <time datetime="2026-11-10">10 November 2026</time></p>
+        <p><a href="help.html">Help and site map</a> · <a href="search.html">Search</a> · <a href="../ayuda.html" hreflang="es" lang="es">Español</a></p>
+        <p>Master's Degree in Web Engineering · University of Oviedo · Web Standards and Computing</p>
+        <p>Images, videos and audio generated for this website.</p>
+    </footer>
+</body>
+</html>

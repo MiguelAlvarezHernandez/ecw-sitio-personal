@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- en/travel.html
+         Miguel Álvarez Hernández. Universidad de Oviedo
+         Estándares y Computación Web - Trabajo II: Sitio Web personal -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Miguel Álvarez Hernández's travels: countries visited and next destinations." />
+    <meta name="author" content="Miguel Álvarez Hernández" />
+    <title>Travel · Miguel Álvarez Hernández</title>
+    <link rel="icon" href="../multimedia/imagenes/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../estilo/sitio.css" />
+</head>
+<body>
+    <a href="#contenido">Skip to content</a>
+    <header>
+        <a href="index.html">Miguel Álvarez</a>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sports.html">Sports</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="travel.html" aria-current="page">Travel</a></li>
+                <li><a href="cinema.html">Film and TV</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="../viajes.html" hreflang="es" lang="es">Español</a></li>
+            </ul>
+        </nav>
+        <form action="search.html" method="get" role="search">
+            <input type="search" name="q" placeholder="Search the site" aria-label="Search the site" required />
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    <nav aria-label="Breadcrumb">
+        <ol>
+            <li><a href="index.html">Home</a></li>
+            <li aria-current="page">Travel</li>
+        </ol>
+    </nav>
+
+    <main id="contenido" tabindex="-1">
+        <header>
+            <h1>Travel</h1>
+            <p>Six countries, many corners of Spain and a list of pending destinations. Every trip has left me with a story.</p>
+        </header>
+
+        <section>
+            <h2>Where I have been</h2>
+            <article>
+                <img src="../multimedia/imagenes/viajes-espana.webp" width="1200" height="800" alt="Image about Spain" loading="lazy" />
+                <h3>Spain</h3>
+                <ul><li>Europe</li><li>At home</li></ul>
+                <p>My country and the one I know best: from north to south, there is always a new corner to discover.</p>
+            </article>
+            <article>
+                <img src="../multimedia/imagenes/viajes-portugal.webp" width="1200" height="800" alt="Image about Portugal" loading="lazy" />
+                <h3>Portugal</h3>
+                <ul><li>Europe</li><li>Neighbours</li></ul>
+                <p>So close and so different: its coast, its food and its people make me always want to go back.</p>
+            </article>
+            <article>
+                <img src="../multimedia/imagenes/viajes-francia.webp" width="1200" height="800" alt="Image about France" loading="lazy" />
+                <h3>France</h3>
+                <ul><li>Europe</li><li>Culture</li></ul>
+                <p>History, art and cities with a special charm on the other side of the Pyrenees.</p>
+            </article>
+            <article>
+                <img src="../multimedia/imagenes/viajes-andorra.webp" width="1200" height="800" alt="Image about Andorra" loading="lazy" />
+                <h3>Andorra</h3>
+                <ul><li>Europe</li><li>Mountains</li></ul>
+                <p>A small country among the mountains, perfect for a getaway in the heart of the Pyrenees.</p>
+            </article>
+            <article>
+                <img src="../multimedia/imagenes/viajes-irlanda.webp" width="1200" height="800" alt="Image about Ireland" loading="lazy" />
+                <h3>Ireland</h3>
+                <ul><li>Europe</li><li>Green landscapes</li></ul>
+                <p>Green landscapes, cliffs and a unique atmosphere in its streets and pubs.</p>
+            </article>
+            <article>
+                <img src="../multimedia/imagenes/viajes-mexico.webp" width="1200" height="800" alt="Image about Mexico" loading="lazy" />
+                <h3>Mexico</h3>
+                <ul><li>America</li><li>My farthest trip</li></ul>
+                <p>Across the Atlantic: colours, flavours and a culture that hooks you from day one.</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Next destinations</h2>
+            <p>The list of places I really want to visit. One by one they will move to the section above.</p>
+            <article>
+                <p aria-hidden="true">NY</p>
+                <h3>New York</h3>
+                <ul><li>United States</li><li>America</li></ul>
+                <p>The city that never sleeps: skyscrapers, Central Park and a rhythm I have only seen in films and series.</p>
+            </article>
+            <article>
+                <p aria-hidden="true">LA</p>
+                <h3>Los Angeles</h3>
+                <ul><li>United States</li><li>America</li></ul>
+                <p>Hollywood, Pacific beaches and the mecca of the film and music I love so much.</p>
+            </article>
+            <article>
+                <p aria-hidden="true">TK</p>
+                <h3>Tokyo</h3>
+                <ul><li>Japan</li><li>Asia</li></ul>
+                <p>Tradition and future on the same street: technology, temples and a completely different culture.</p>
+            </article>
+            <article>
+                <p aria-hidden="true">CH</p>
+                <h3>Switzerland</h3>
+                <ul><li>Europe</li><li>Mountains</li></ul>
+                <p>The Alps, postcard lakes and quiet cities among the mountains. A paradise for landscape lovers.</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Summary</h2>
+            <table>
+                <caption>Countries visited, continent and official language</caption>
+                <thead>
+                    <tr><th scope="col">Country</th><th scope="col">Continent</th><th scope="col">Official language</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Spain</td><td>Europe</td><td>English</td></tr>
+                    <tr><td>Portugal</td><td>Europe</td><td>Portuguese</td></tr>
+                    <tr><td>France</td><td>Europe</td><td>French</td></tr>
+                    <tr><td>Andorra</td><td>Europe</td><td>Catalan</td></tr>
+                    <tr><td>Ireland</td><td>Europe</td><td>Irish and English</td></tr>
+                    <tr><td>Mexico</td><td>America</td><td>Spanish (de facto)</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Video</h2>
+            <figure>
+                <video controls aria-label="8-second video, no sound, with subtitles" preload="metadata" width="960" height="540" poster="../multimedia/imagenes/poster-viajes.webp">
+                    <source src="../multimedia/video/viajes.webm" type="video/webm" />
+                    <source src="../multimedia/video/viajes.mp4" type="video/mp4" />
+                    <track src="../multimedia/video/viajes.en.vtt" kind="captions" srclang="en" label="English" default />
+                    Your browser cannot play this video. <a href="../multimedia/video/viajes.mp4">Download the video as MP4</a>.
+                </video>
+                <figcaption>Video (8 seconds, no sound): animation with the title “Travel”.</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Miguel Álvarez Hernández · <a href="mailto:uo295368@uniovi.es">uo295368@uniovi.es</a></p>
+        <p>Last updated: <time datetime="2026-11-10">10 November 2026</time></p>
+        <p><a href="help.html">Help and site map</a> · <a href="search.html">Search</a> · <a href="../viajes.html" hreflang="es" lang="es">Español</a></p>
+        <p>Master's Degree in Web Engineering · University of Oviedo · Web Standards and Computing</p>
+        <p>Images, videos and audio generated for this website.</p>
+    </footer>
+</body>
+</html>
