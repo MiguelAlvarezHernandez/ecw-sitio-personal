@@ -104,7 +104,7 @@ body > header > a {
 }
 
 nav a {
-    padding-inline: 1rem;
+    padding-inline: 0.8rem;
     border-radius: 2rem;
     color: var(--suave);
 }
@@ -367,7 +367,7 @@ form[role="search"] {
 }
 
 body > header > form {
-    flex: 0 1 18rem;
+    flex: 0 1 14rem;
 }
 
 input,

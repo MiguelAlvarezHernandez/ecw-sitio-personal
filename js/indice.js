@@ -68,7 +68,7 @@ var INDICE = [
   "pagina": "Deportes",
   "seccion": "Vídeo",
   "url": "deportes.html",
-  "texto": "Vídeo (8 segundos, sin sonido): animación con el título «Deportes»."
+  "texto": "Vídeo (9 segundos, sin sonido): jugadores de pádel en un torneo."
  },
  {
   "idioma": "es",
@@ -96,21 +96,21 @@ var INDICE = [
   "pagina": "Miguel Álvarez Hernández",
   "seccion": "Mis intereses",
   "url": "index.html",
-  "texto": "Cuatro cosas que ocupan mi tiempo libre. Entra en cada una para saber más. Deportes Fútbol y baloncesto en la tele; pádel y gimnasio en primera persona. Música Urbano latino: Mora, Quevedo, Bad Bunny y Jay Wheeler. Con pódcast incluido. Viajes México, Francia, Irlanda, Portugal, Andorra y España… con Nueva York, Tokio o Suiza en la lista. Cine y series Juego de Tronos, Interstellar, Gladiator… y muchas horas de series."
+  "texto": "Cuatro cosas que ocupan mi tiempo libre. Entra en cada una para saber más. Deportes Fútbol y baloncesto en la tele; pádel y gimnasio en primera persona. Con vídeo. Música Urbano latino: Mora, Quevedo, Bad Bunny y Jay Wheeler. Con una base de reguetón para escuchar. Viajes México, Francia, Irlanda, Portugal, Andorra y España… con Nueva York, Tokio o Suiza en la lista. Cine y series Juego de Tronos, Interstellar, Gladiator… y muchas horas de series."
  },
  {
   "idioma": "es",
   "pagina": "Música",
   "seccion": "Mis artistas favoritos",
   "url": "musica.html",
-  "texto": "M Mora Puerto Rico Reguetón y trap Una de las voces más personales del género, con un sonido melódico y oscuro que engancha desde la primera escucha. Q Quevedo Canarias Urbano El artista canario que conquistó el mundo con su sesión con Bizarrap. Orgullo del urbano hecho en España. B Bad Bunny Puerto Rico Reguetón y trap Uno de los artistas más escuchados del planeta, capaz de reinventarse en cada disco. J Jay Wheeler Puerto Rico Voz romántica del urbano: canciones de desamor con un estilo inconfundible."
+  "texto": "Mora Puerto Rico Reguetón y trap Una de las voces más personales del género, con un sonido melódico y oscuro que engancha desde la primera escucha. Quevedo Canarias Urbano El artista canario que conquistó el mundo con su sesión con Bizarrap. Orgullo del urbano hecho en España. Bad Bunny Puerto Rico Reguetón y trap Uno de los artistas más escuchados del planeta, capaz de reinventarse en cada disco. Jay Wheeler Puerto Rico Voz romántica del urbano: canciones de desamor con un estilo inconfundible."
  },
  {
   "idioma": "es",
   "pagina": "Música",
-  "seccion": "Pódcast",
+  "seccion": "Para escuchar",
   "url": "musica.html",
-  "texto": "Un episodio para escuchar mientras navegas por la web. Audio (30 segundos): base instrumental de estilo urbano. Transcripción Este audio no contiene voz: es una base instrumental con acordes y percusión de ritmo urbano."
+  "texto": "Una base de reguetón hecha con sintetizadores, para escuchar mientras navegas por la web. Audio (32 segundos): «Se oye libre - Fondo Random 1», de ProtoplasmaKid (CC BY-SA 4.0). Transcripción Este audio no contiene voz: es una base de reguetón con sintetizadores y percusión."
  },
  {
   "idioma": "es",
@@ -131,7 +131,7 @@ var INDICE = [
   "pagina": "Viajes",
   "seccion": "Próximos destinos",
   "url": "viajes.html",
-  "texto": "La lista de lugares que tengo muchas ganas de conocer. Poco a poco irán pasando a la sección de arriba. NY Nueva York Estados Unidos América La ciudad que nunca duerme: rascacielos, Central Park y un ritmo que solo he visto en películas y series. LA Los Ángeles Estados Unidos América Hollywood, playas del Pacífico y la meca del cine y de la música que tanto me gustan. TK Tokio Japón Asia Tradición y futuro en la misma calle: tecnología, templos y una cultura completamente distinta. CH Suiza Europa Montaña Los Alpes, lagos de postal y ciudades tranquilas entre montañas. Un paraíso para los amantes del paisaje."
+  "texto": "La lista de lugares que tengo muchas ganas de conocer. Poco a poco irán pasando a la sección de arriba. Nueva York Estados Unidos América La ciudad que nunca duerme: rascacielos, Central Park y un ritmo que solo he visto en películas y series. Los Ángeles Estados Unidos América Hollywood, playas del Pacífico y la meca del cine y de la música que tanto me gustan. Tokio Japón Asia Tradición y futuro en la misma calle: tecnología, templos y una cultura completamente distinta. Suiza Europa Montaña Los Alpes, lagos de postal y ciudades tranquilas entre montañas. Un paraíso para los amantes del paisaje."
  },
  {
   "idioma": "es",
@@ -145,7 +145,7 @@ var INDICE = [
   "pagina": "Viajes",
   "seccion": "Vídeo",
   "url": "viajes.html",
-  "texto": "Vídeo (8 segundos, sin sonido): animación con el título «Viajes»."
+  "texto": "Vídeo (10 segundos, sin sonido): tranvías amarillos por las calles de Lisboa."
  },
  {
   "idioma": "en",
@@ -215,21 +215,21 @@ var INDICE = [
   "pagina": "Miguel Álvarez Hernández",
   "seccion": "My interests",
   "url": "en/index.html",
-  "texto": "Four things that take up my free time. Open each one to find out more. Sports Football and basketball on TV; padel and gym first-hand. Music Latin urban: Mora, Quevedo, Bad Bunny and Jay Wheeler. Podcast included. Travel Mexico, France, Ireland, Portugal, Andorra and Spain… with New York, Tokyo or Switzerland on the list. Film and TV Game of Thrones, Interstellar, Gladiator… and many hours of series."
+  "texto": "Four things that take up my free time. Open each one to find out more. Sports Football and basketball on TV; padel and gym first-hand. With video. Music Latin urban: Mora, Quevedo, Bad Bunny and Jay Wheeler. With a reggaeton beat to listen to. Travel Mexico, France, Ireland, Portugal, Andorra and Spain… with New York, Tokyo or Switzerland on the list. Film and TV Game of Thrones, Interstellar, Gladiator… and many hours of series."
  },
  {
   "idioma": "en",
   "pagina": "Music",
   "seccion": "My favourite artists",
   "url": "en/music.html",
-  "texto": "M Mora Puerto Rico Reggaeton and trap One of the most personal voices of the genre, with a melodic, dark sound that hooks you from the first listen. Q Quevedo Canary Islands Urban The Canarian artist who conquered the world with his session with Bizarrap. A pride of urban music made in Spain. B Bad Bunny Puerto Rico Reggaeton and trap One of the most listened-to artists on the planet, able to reinvent himself on every album. J Jay Wheeler Puerto Rico The romantic voice of urban music: heartbreak songs with an unmistakable style."
+  "texto": "Mora Puerto Rico Reggaeton and trap One of the most personal voices of the genre, with a melodic, dark sound that hooks you from the first listen. Quevedo Canary Islands Urban The Canarian artist who conquered the world with his session with Bizarrap. A pride of urban music made in Spain. Bad Bunny Puerto Rico Reggaeton and trap One of the most listened-to artists on the planet, able to reinvent himself on every album. Jay Wheeler Puerto Rico The romantic voice of urban music: heartbreak songs with an unmistakable style."
  },
  {
   "idioma": "en",
   "pagina": "Music",
-  "seccion": "Podcast",
+  "seccion": "Something to listen to",
   "url": "en/music.html",
-  "texto": "An episode to listen to while you browse the site. Audio (30 seconds): urban-style instrumental track. Transcript This audio contains no voice: it is an instrumental track with chords and urban-rhythm percussion."
+  "texto": "A reggaeton beat made with synthesizers, to listen to while you browse the site. Audio (32 seconds): “Se oye libre - Fondo Random 1”, by ProtoplasmaKid (CC BY-SA 4.0). Transcript This audio contains no voice: it is a reggaeton beat with synthesizers and percussion."
  },
  {
   "idioma": "en",
@@ -257,7 +257,7 @@ var INDICE = [
   "pagina": "Sports",
   "seccion": "Video",
   "url": "en/sports.html",
-  "texto": "Video (8 seconds, no sound): animation with the title “Sports”."
+  "texto": "Video (9 seconds, no sound): padel players at a tournament."
  },
  {
   "idioma": "en",
@@ -278,7 +278,7 @@ var INDICE = [
   "pagina": "Travel",
   "seccion": "Next destinations",
   "url": "en/travel.html",
-  "texto": "The list of places I really want to visit. One by one they will move to the section above. NY New York United States America The city that never sleeps: skyscrapers, Central Park and a rhythm I have only seen in films and series. LA Los Angeles United States America Hollywood, Pacific beaches and the mecca of the film and music I love so much. TK Tokyo Japan Asia Tradition and future on the same street: technology, temples and a completely different culture. CH Switzerland Europe Mountains The Alps, postcard lakes and quiet cities among the mountains. A paradise for landscape lovers."
+  "texto": "The list of places I really want to visit. One by one they will move to the section above. New York United States America The city that never sleeps: skyscrapers, Central Park and a rhythm I have only seen in films and series. Los Angeles United States America Hollywood, Pacific beaches and the mecca of the film and music I love so much. Tokyo Japan Asia Tradition and future on the same street: technology, temples and a completely different culture. Switzerland Europe Mountains The Alps, postcard lakes and quiet cities among the mountains. A paradise for landscape lovers."
  },
  {
   "idioma": "en",
@@ -292,6 +292,6 @@ var INDICE = [
   "pagina": "Travel",
   "seccion": "Video",
   "url": "en/travel.html",
-  "texto": "Video (8 seconds, no sound): animation with the title “Travel”."
+  "texto": "Video (10 seconds, no sound): yellow trams in the streets of Lisbon."
  }
 ];

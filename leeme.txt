@@ -64,9 +64,11 @@ Miguel Alvarez Hernandez - uo295368@uniovi.es
    La estructura HTML y la hoja de estilos se reutilizan como plantilla en
    el Trabajo IV.
 
-   Multimedia: la fotografia personal es real; las demas imagenes, los
-   videos y el audio se han generado para este sitio (sin derechos de
-   terceros).
+   Multimedia: la fotografia personal es propia; el resto de fotografias, los
+   videos y el audio proceden de Wikimedia Commons con licencias libres (CC BY,
+   CC BY-SA, dominio publico). La autoria y la licencia de cada archivo estan en
+   creditos.html. Las fotografias se recortaron y redujeron de tamano; los videos
+   se recortaron a unos segundos y sin sonido.
 
 5. URL DE DESPLIEGUE
    http://156.35.98.22/ecw/trabajo-2-sitio-personal/index.html
