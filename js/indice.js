@@ -82,7 +82,7 @@ var INDICE = [
   "pagina": "Miguel Álvarez Hernández",
   "seccion": "Sobre mí",
   "url": "index.html",
-  "texto": "Miguel Álvarez Hernández Fuera del trabajo me gustan todos los deportes, la música urbana latina, viajar y ver series y películas. De todo eso va esta web. Nombre Miguel Apellidos Álvarez Hernández Email Ciudad Oviedo (Asturias) Estudios Grado en Ingeniería Informática del Software · Máster Universitario en Ingeniería Web (en curso) Trabajo Junior Engineer en NTT Data LinkedIn GitHub"
+  "texto": "Miguel Álvarez Hernández Fuera del trabajo me gustan todos los deportes, la música urbana latina, viajar y ver series y películas. De todo eso va esta web. Nombre Miguel Apellidos Álvarez Hernández Email Ciudad Oviedo (Asturias) Estudios Grado en Ingeniería Informática del Software · Máster Universitario en Ingeniería Web (en curso) Trabajo Junior Software Engineer en NTT DATA LinkedIn GitHub"
  },
  {
   "idioma": "es",
@@ -173,7 +173,7 @@ var INDICE = [
   "pagina": "Viajes",
   "seccion": "Resumen",
   "url": "viajes.html",
-  "texto": "Países visitados, continente e idioma oficial País Continente Idioma oficial España Europa Español Portugal Europa Portugués Francia Europa Francés Andorra Europa Catalán Irlanda Europa Irlandés e inglés México América Español (de facto)"
+  "texto": "Países visitados, continente e idioma oficial País Continente Idioma oficial España Europa Español Portugal Europa Portugués Francia Europa Francés Andorra Europa Catalán Irlanda Europa Irlandés e inglés México América Español (no está declarado oficial por ley, pero es el idioma que se habla)"
  },
  {
   "idioma": "es",
@@ -271,7 +271,7 @@ var INDICE = [
   "pagina": "Miguel Álvarez Hernández",
   "seccion": "About me",
   "url": "en/index.html",
-  "texto": "Miguel Álvarez Hernández Outside work I like all sports, Latin urban music, travelling and watching series and films. That is what this website is about. First name Miguel Surnames Álvarez Hernández Email City Oviedo (Asturias) Studies Degree in Software Engineering · Master's Degree in Web Engineering (ongoing) Job Junior Engineer at NTT Data LinkedIn GitHub"
+  "texto": "Miguel Álvarez Hernández Outside work I like all sports, Latin urban music, travelling and watching series and films. That is what this website is about. First name Miguel Surnames Álvarez Hernández Email City Oviedo (Asturias) Studies Degree in Software Engineering · Master's Degree in Web Engineering (ongoing) Job Junior Software Engineer at NTT DATA LinkedIn GitHub"
  },
  {
   "idioma": "en",
@@ -355,7 +355,7 @@ var INDICE = [
   "pagina": "Travel",
   "seccion": "Summary",
   "url": "en/travel.html",
-  "texto": "Countries visited, continent and official language Country Continent Official language Spain Europe English Portugal Europe Portuguese France Europe French Andorra Europe Catalan Ireland Europe Irish and English Mexico America Spanish (de facto)"
+  "texto": "Countries visited, continent and official language Country Continent Official language Spain Europe English Portugal Europe Portuguese France Europe French Andorra Europe Catalan Ireland Europe Irish and English Mexico America Spanish (not declared official by law, but it is the language spoken)"
  },
  {
   "idioma": "en",
