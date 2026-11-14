@@ -448,7 +448,11 @@ body > nav li + li::before {
 }
 
 body > nav a {
-    padding-inline: 0;
+    display: inline-block;
+    min-height: 2.75rem;
+    min-width: 2.75rem;
+    padding-inline: 0.25rem;
+    line-height: 2.75rem;
 }
 
 /* Resultados del buscador: la lista usa el estilo de tarjeta, pero en una sola columna */
@@ -490,4 +494,11 @@ body > aside p {
     flex: 1 1 24rem;
     margin: 0;
     max-width: none;
+}
+
+/* Enlaces dentro de títulos: objetivo táctil de al menos 44 px */
+main h3 a {
+    display: inline-block;
+    min-height: 2.75rem;
+    line-height: 2.75rem;
 }
