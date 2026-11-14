@@ -118,7 +118,9 @@ nav a[aria-current] {
 main > header {
     padding-block: 3.5rem;
     text-align: center;
-    background: linear-gradient(rgba(7, 11, 20, 0.85), var(--fondo)), url("../multimedia/imagenes/portada.webp") center / cover;
+    background-color: var(--fondo);
+    /* Fondo liso (contraste medible, WCAG 1.4.6) con un brillo suave hecho con sombras interiores */
+    box-shadow: inset 0 -4rem 5rem -3rem rgba(47, 129, 255, 0.18), inset 0 3rem 5rem -4rem rgba(47, 129, 255, 0.12);
 }
 
 main > header p {
@@ -472,13 +474,9 @@ body > footer a {
 }
 
 
-/* Aviso de cookies (js/consentimiento.js): barra fija en la parte inferior mientras no se decida */
+/* Aviso de cookies (js/consentimiento.js): barra en el flujo, justo bajo el enlace de salto, que no tapa nada */
 body > aside {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 2;
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     gap: 0.75rem 1rem;
