@@ -89,7 +89,7 @@ var INDICE = [
   "pagina": "Miguel Álvarez Hernández",
   "seccion": "Trayectoria",
   "url": "index.html",
-  "texto": "Grado en Ingeniería Informática del Software Universidad de Oviedo · Escuela de Ingeniería Informática. Junior Engineer en NTT Data Desarrollo de software en proyectos para grandes clientes. Máster Universitario en Ingeniería Web Universidad de Oviedo · Curso 2026/2027 (en curso)."
+  "texto": "Junior Software Engineer en NTT DATA Octubre de 2026 – actualidad. Máster Universitario en Ingeniería Web Universidad de Oviedo · Septiembre de 2026 – junio de 2027 (en curso). Ingeniero de software en prácticas en NTT DATA Febrero de 2026 – julio de 2026. Grado en Ingeniería Informática del Software Universidad de Oviedo · Escuela de Ingeniería Informática · Septiembre de 2022 – junio de 2026."
  },
  {
   "idioma": "es",
@@ -111,6 +111,34 @@ var INDICE = [
   "seccion": "Para escuchar",
   "url": "musica.html",
   "texto": "Una base de reguetón hecha con sintetizadores, para escuchar mientras navegas por la web. Audio (32 segundos): «Se oye libre - Fondo Random 1», de ProtoplasmaKid (CC BY-SA 4.0). Transcripción Este audio no contiene voz: es una base de reguetón con sintetizadores y percusión."
+ },
+ {
+  "idioma": "es",
+  "pagina": "Trayectoria",
+  "seccion": "Trayectoria",
+  "url": "trayectoria.html",
+  "texto": "Quién soy Mi formación y mi experiencia profesional, con fechas, de lo más reciente a lo más antiguo."
+ },
+ {
+  "idioma": "es",
+  "pagina": "Trayectoria",
+  "seccion": "Experiencia profesional",
+  "url": "trayectoria.html",
+  "texto": "Junior Software Engineer NTT DATA Europe & Latam · Jornada completa Octubre de 2026 – actualidad · Oviedo, Principado de Asturias, España · Híbrido Desarrollo de software en proyectos para grandes clientes. Ingeniero de software NTT DATA Europe & Latam · Contrato de prácticas Febrero de 2026 – julio de 2026 · Oviedo, Principado de Asturias, España · Híbrido"
+ },
+ {
+  "idioma": "es",
+  "pagina": "Trayectoria",
+  "seccion": "Formación",
+  "url": "trayectoria.html",
+  "texto": "Máster Universitario en Ingeniería Web Universidad de Oviedo Septiembre de 2026 – junio de 2027 (en curso) · Oviedo, Asturias Grado en Ingeniería Informática del Software Universidad de Oviedo · Escuela de Ingeniería Informática Septiembre de 2022 – junio de 2026 · Oviedo, Asturias"
+ },
+ {
+  "idioma": "es",
+  "pagina": "Trayectoria",
+  "seccion": "Más información",
+  "url": "trayectoria.html",
+  "texto": "Puedes contactar conmigo desde la página de Contacto o en LinkedIn."
  },
  {
   "idioma": "es",
@@ -146,6 +174,34 @@ var INDICE = [
   "seccion": "Vídeo",
   "url": "viajes.html",
   "texto": "Vídeo (10 segundos, sin sonido): tranvías amarillos por las calles de Lisboa."
+ },
+ {
+  "idioma": "en",
+  "pagina": "Background",
+  "seccion": "Background",
+  "url": "en/career.html",
+  "texto": "Who I am My education and professional experience, with dates, from most recent to oldest."
+ },
+ {
+  "idioma": "en",
+  "pagina": "Background",
+  "seccion": "Professional experience",
+  "url": "en/career.html",
+  "texto": "Junior Software Engineer NTT DATA Europe & Latam · Full time October 2026 – present · Oviedo, Principality of Asturias, Spain · Hybrid Software development on projects for large clients. Software engineer NTT DATA Europe & Latam · Internship contract February 2026 – July 2026 · Oviedo, Principality of Asturias, Spain · Hybrid"
+ },
+ {
+  "idioma": "en",
+  "pagina": "Background",
+  "seccion": "Education",
+  "url": "en/career.html",
+  "texto": "Master's Degree in Web Engineering University of Oviedo September 2026 – June 2027 (ongoing) · Oviedo, Asturias Degree in Software Engineering University of Oviedo · School of Computer Engineering September 2022 – June 2026 · Oviedo, Asturias"
+ },
+ {
+  "idioma": "en",
+  "pagina": "Background",
+  "seccion": "More information",
+  "url": "en/career.html",
+  "texto": "You can contact me from the Contact page or on LinkedIn."
  },
  {
   "idioma": "en",
@@ -208,7 +264,7 @@ var INDICE = [
   "pagina": "Miguel Álvarez Hernández",
   "seccion": "Background",
   "url": "en/index.html",
-  "texto": "Degree in Software Engineering University of Oviedo · School of Computer Engineering. Junior Engineer at NTT Data Software development on projects for large clients. Master's Degree in Web Engineering University of Oviedo · 2026/2027 academic year (ongoing)."
+  "texto": "Junior Software Engineer at NTT DATA October 2026 – present. Master's Degree in Web Engineering University of Oviedo · September 2026 – June 2027 (ongoing). Software engineer intern at NTT DATA February 2026 – July 2026. Degree in Software Engineering University of Oviedo · School of Computer Engineering · September 2022 – June 2026."
  },
  {
   "idioma": "en",
