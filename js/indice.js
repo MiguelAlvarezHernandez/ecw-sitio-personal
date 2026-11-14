@@ -136,6 +136,13 @@ var INDICE = [
  {
   "idioma": "es",
   "pagina": "Trayectoria",
+  "seccion": "Referencias",
+  "url": "trayectoria.html",
+  "texto": "Personas que me conocen y que han aceptado figurar aquí. Puedes contactar con ellas en LinkedIn. Excompañero de clase y amigo. Excompañero de clase y amigo."
+ },
+ {
+  "idioma": "es",
+  "pagina": "Trayectoria",
   "seccion": "Más información",
   "url": "trayectoria.html",
   "texto": "Puedes contactar conmigo desde la página de Contacto o en LinkedIn."
@@ -195,6 +202,13 @@ var INDICE = [
   "seccion": "Education",
   "url": "en/career.html",
   "texto": "Master's Degree in Web Engineering University of Oviedo September 2026 – June 2027 (ongoing) · Oviedo, Asturias Degree in Software Engineering University of Oviedo · School of Computer Engineering September 2022 – June 2026 · Oviedo, Asturias"
+ },
+ {
+  "idioma": "en",
+  "pagina": "Background",
+  "seccion": "References",
+  "url": "en/career.html",
+  "texto": "People who know me and have agreed to be listed here. You can contact them on LinkedIn. Former classmate and friend. Former classmate and friend."
  },
  {
   "idioma": "en",
