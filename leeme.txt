@@ -17,6 +17,10 @@ Miguel Alvarez Hernandez - uo295368@uniovi.es
    js/             buscador.js (codigo del buscador, comentado) e indice.js
                    (indice de contenidos, generado).
    herramientas/   generar-indice.py: regenera js/indice.js.
+   js/consentimiento.js  Aviso de cookies y carga de Microsoft Clarity (mapas de
+                   calor) solo si el visitante acepta. Para desactivarlo, vaciar
+                   CLARITY_ID dentro del archivo.
+   privacidad.html Explica que se mide y como cambiar la eleccion.
    estilo/         sitio.css, hoja de estilos unica.
    multimedia/     imagenes/ (WebP y SVG), video/ (WebM, MP4 y subtitulos
                    WebVTT) y audio/ (MP3 y Ogg).

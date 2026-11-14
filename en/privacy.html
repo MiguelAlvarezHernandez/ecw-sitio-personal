@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- en/privacy.html
+         Miguel Álvarez Hernández. Universidad de Oviedo
+         Estándares y Computación Web - Trabajo II: Sitio Web personal -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="What is measured on Miguel Álvarez Hernández's website during the usability tests and how to choose." />
+    <meta name="author" content="Miguel Álvarez Hernández" />
+    <title>Privacy · Miguel Álvarez Hernández</title>
+    <link rel="icon" href="../multimedia/imagenes/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../estilo/sitio.css" />
+    <script src="../js/consentimiento.js" defer></script>
+</head>
+<body>
+    <a href="#contenido">Skip to content</a>
+    <header>
+        <a href="index.html">Miguel Álvarez</a>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sports.html">Sports</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="travel.html">Travel</a></li>
+                <li><a href="cinema.html">Film and TV</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="help.html">Help</a></li>
+            </ul>
+        </nav>
+        <form action="search.html" method="get" role="search">
+            <input type="search" name="q" placeholder="Search the site" aria-label="Search the site" required />
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    <nav aria-label="Breadcrumb">
+        <ol>
+            <li><a href="index.html">Home</a></li>
+            <li aria-current="page">Privacy</li>
+        </ol>
+    </nav>
+
+    <main id="contenido">
+        <header>
+            <p>Data</p>
+            <h1>Privacy</h1>
+            <p>What is measured on this site during the usability tests, with which tool, and how you can decide.</p>
+        </header>
+
+        <section>
+            <h2>What is measured</h2>
+            <p>Only during the usability tests of the User Experience course, and only if you accept, clicks, scrolling, mouse movement and an anonymous session recording are collected. It is used to draw heatmaps and see where people get stuck when using the site.</p>
+        </section>
+
+        <section>
+            <h2>With which tool</h2>
+            <p>The measurement is done by Microsoft Clarity, which stores the data on its servers and uses its own cookies. Clarity masks the text of form fields by default. This site does not ask for your name, email or any other personal data in order to measure anything.</p>
+        </section>
+
+        <section>
+            <h2>Your choice</h2>
+            <p>If you press “Reject”, Clarity is not loaded and nothing is measured. Your choice is saved in your browser and you can change it at any time with the button below.</p>
+            <p><button type="button" onclick="cambiarConsentimiento()">Change my choice</button></p>
+        </section>
+
+        <section>
+            <h2>More information</h2>
+            <p><a href="https://privacy.microsoft.com/es-es/privacystatement">Microsoft privacy statement</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Miguel Álvarez Hernández · <a href="mailto:uo295368@uniovi.es">uo295368@uniovi.es</a></p>
+        <p>Last updated: <time datetime="2026-11-10">10 November 2026</time></p>
+        <p><a href="help.html">Help and site map</a> · <a href="search.html">Search</a> · <a href="privacy.html">Privacy</a> · <a href="../privacidad.html" hreflang="es" lang="es">Español</a></p>
+        <p>Master's Degree in Web Engineering · University of Oviedo · Web Standards and Computing</p>
+        <p>Images, videos and audio generated for this website.</p>
+    </footer>
+</body>
+</html>

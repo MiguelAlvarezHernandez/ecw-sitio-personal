@@ -27,7 +27,7 @@ from html.parser import HTMLParser
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 
 # Páginas que NO se indexan: el buscador, la ayuda (repite el contenido de las demás) y los créditos (listas de archivos)
-EXCLUIR = {"buscar.html", "search.html", "ayuda.html", "help.html", "creditos.html", "credits.html"}
+EXCLUIR = {"buscar.html", "search.html", "ayuda.html", "help.html", "creditos.html", "credits.html", "privacidad.html", "privacy.html"}
 
 # Etiquetas cuyo contenido no forma parte del texto de la página
 IGNORAR = {"script", "style", "noscript", "form", "nav", "footer", "head"}

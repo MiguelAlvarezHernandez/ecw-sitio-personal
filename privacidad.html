@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- privacidad.html
+         Miguel Álvarez Hernández. Universidad de Oviedo
+         Estándares y Computación Web - Trabajo II: Sitio Web personal -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Qué se mide en la web de Miguel Álvarez Hernández durante las pruebas de usabilidad y cómo decidir." />
+    <meta name="author" content="Miguel Álvarez Hernández" />
+    <title>Privacidad · Miguel Álvarez Hernández</title>
+    <link rel="icon" href="multimedia/imagenes/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="estilo/sitio.css" />
+    <script src="js/consentimiento.js" defer></script>
+</head>
+<body>
+    <a href="#contenido">Saltar al contenido</a>
+    <header>
+        <a href="index.html">Miguel Álvarez</a>
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="deportes.html">Deportes</a></li>
+                <li><a href="musica.html">Música</a></li>
+                <li><a href="viajes.html">Viajes</a></li>
+                <li><a href="cine.html">Cine y series</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="ayuda.html">Ayuda</a></li>
+            </ul>
+        </nav>
+        <form action="buscar.html" method="get" role="search">
+            <input type="search" name="q" placeholder="Buscar en la web" aria-label="Buscar en la web" required />
+            <button type="submit">Buscar</button>
+        </form>
+    </header>
+
+    <nav aria-label="Migas de pan">
+        <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li aria-current="page">Privacidad</li>
+        </ol>
+    </nav>
+
+    <main id="contenido">
+        <header>
+            <p>Datos</p>
+            <h1>Privacidad</h1>
+            <p>Qué se mide en esta web durante las pruebas de usabilidad, con qué herramienta y cómo puedes decidir.</p>
+        </header>
+
+        <section>
+            <h2>Qué se mide</h2>
+            <p>Solo durante las pruebas de usabilidad de la asignatura Experiencia de Usuario, y solo si aceptas, se registran los clics, el desplazamiento por la página, el movimiento del ratón y una grabación anónima de la sesión. Sirve para dibujar mapas de calor y ver dónde se atascan las personas que usan la web.</p>
+        </section>
+
+        <section>
+            <h2>Con qué herramienta</h2>
+            <p>La medición la hace Microsoft Clarity, que guarda los datos en sus servidores y usa sus propias cookies. Clarity oculta por defecto el texto de los campos de formulario. Esta web no te pide nombre, correo ni ningún otro dato personal para medir nada.</p>
+        </section>
+
+        <section>
+            <h2>Tu decisión</h2>
+            <p>Si pulsas «Rechazar» no se carga Clarity y no se mide nada. Tu elección se guarda en tu navegador y puedes cambiarla cuando quieras con el botón de abajo.</p>
+            <p><button type="button" onclick="cambiarConsentimiento()">Cambiar mi elección</button></p>
+        </section>
+
+        <section>
+            <h2>Más información</h2>
+            <p><a href="https://privacy.microsoft.com/es-es/privacystatement">Declaración de privacidad de Microsoft</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Miguel Álvarez Hernández · <a href="mailto:uo295368@uniovi.es">uo295368@uniovi.es</a></p>
+        <p>Última actualización: <time datetime="2026-11-10">10 de noviembre de 2026</time></p>
+        <p><a href="ayuda.html">Ayuda y mapa del sitio</a> · <a href="buscar.html">Buscador</a> · <a href="privacidad.html">Privacidad</a> · <a href="en/index.html" hreflang="en" lang="en">English</a></p>
+        <p>Máster Universitario en Ingeniería Web · Universidad de Oviedo · Estándares y Computación Web</p>
+        <p>Imágenes, vídeos y audio generados para esta web.</p>
+    </footer>
+</body>
+</html>
