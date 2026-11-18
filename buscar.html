@@ -32,7 +32,8 @@
             </ul>
         </nav>
         <form action="buscar.html" method="get" role="search" aria-label="Buscador de la cabecera">
-            <input type="search" name="q" placeholder="Buscar" aria-label="Buscar en la web" required />
+            <label for="buscar-cabecera">Buscar en la web</label>
+            <input type="search" id="buscar-cabecera" name="q" placeholder="Buscar" required />
             <button type="submit">Buscar</button>
         </form>
         <nav aria-label="Idioma">
@@ -58,7 +59,8 @@
         <section>
             <h2>Resultados</h2>
             <form action="buscar.html" method="get" role="search" aria-label="Buscador de la página">
-                <input type="search" name="q" placeholder="Buscar en la web" aria-label="Buscar en la web" required />
+                <label for="buscar-pagina">Buscar en la web</label>
+                <input type="search" id="buscar-pagina" name="q" placeholder="Buscar en la web" required />
                 <button type="submit">Buscar</button>
             </form>
             <p aria-live="polite">Escribe algo para empezar a buscar.</p>

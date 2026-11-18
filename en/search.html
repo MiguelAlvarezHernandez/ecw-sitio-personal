@@ -32,7 +32,8 @@
             </ul>
         </nav>
         <form action="search.html" method="get" role="search" aria-label="Header search">
-            <input type="search" name="q" placeholder="Search" aria-label="Search the site" required />
+            <label for="buscar-cabecera">Search the site</label>
+            <input type="search" id="buscar-cabecera" name="q" placeholder="Search" required />
             <button type="submit">Search</button>
         </form>
         <nav aria-label="Language">
@@ -58,7 +59,8 @@
         <section>
             <h2>Results</h2>
             <form action="search.html" method="get" role="search" aria-label="Page search">
-                <input type="search" name="q" placeholder="Search the site" aria-label="Search the site" required />
+                <label for="buscar-pagina">Search the site</label>
+                <input type="search" id="buscar-pagina" name="q" placeholder="Search the site" required />
                 <button type="submit">Search</button>
             </form>
             <p aria-live="polite">Type something to start searching.</p>

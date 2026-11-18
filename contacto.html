@@ -30,7 +30,8 @@
             </ul>
         </nav>
         <form action="buscar.html" method="get" role="search" aria-label="Buscador de la cabecera">
-            <input type="search" name="q" placeholder="Buscar" aria-label="Buscar en la web" required />
+            <label for="buscar-cabecera">Buscar en la web</label>
+            <input type="search" id="buscar-cabecera" name="q" placeholder="Buscar" required />
             <button type="submit">Buscar</button>
         </form>
         <nav aria-label="Idioma">
@@ -76,14 +77,14 @@
         <section>
             <h2>Formulario</h2>
             <form action="mailto:uo295368@uniovi.es" method="post" enctype="text/plain">
-                <label>Tu nombre
-                    <input type="text" name="nombre" autocomplete="name" required />
+                <label for="contacto-nombre">Tu nombre
+                    <input type="text" id="contacto-nombre" name="nombre" autocomplete="name" required />
                 </label>
-                <label>Tu correo
-                    <input type="email" name="correo" autocomplete="email" required />
+                <label for="contacto-correo">Tu correo
+                    <input type="email" id="contacto-correo" name="correo" autocomplete="email" required />
                 </label>
-                <label>Mensaje
-                    <textarea name="mensaje" rows="6" required></textarea>
+                <label for="contacto-mensaje">Mensaje
+                    <textarea id="contacto-mensaje" name="mensaje" rows="6" required></textarea>
                 </label>
                 <button type="submit">Enviar mensaje</button>
             </form>

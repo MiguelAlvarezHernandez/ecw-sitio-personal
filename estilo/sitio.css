@@ -608,3 +608,13 @@ body > header > nav:first-of-type a {
     padding-inline: 0.3rem;
     text-align: center;
 }
+
+/* Etiqueta del buscador: presente para los lectores de pantalla y las herramientas, sin ocupar sitio a la vista (el campo ya tiene su texto de ayuda) */
+form[role="search"] > label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
