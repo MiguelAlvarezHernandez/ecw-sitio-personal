@@ -49,7 +49,6 @@ dd {
     text-wrap: pretty;
 }
 
-/* Los textos cortos reparten las líneas por igual en vez de dejar una palabra suelta */
 main > header p,
 summary,
 li,
@@ -120,7 +119,6 @@ main > header {
     padding-block: 3.5rem;
     text-align: center;
     background-color: var(--fondo);
-    /* Fondo liso (contraste medible, WCAG 1.4.6) con un brillo suave hecho con sombras interiores */
     box-shadow: inset 0 -4rem 5rem -3rem rgba(47, 129, 255, 0.18), inset 0 3rem 5rem -4rem rgba(47, 129, 255, 0.12);
 }
 
@@ -332,10 +330,6 @@ body > footer p {
     }
 }
 
-
-/* ---------- Mejoras tras la evaluación externa (tanda 1) ---------- */
-
-/* Enlace «Saltar al contenido»: invisible hasta que recibe el foco con el teclado */
 body > a:first-child {
     position: absolute;
     left: 1rem;
@@ -352,7 +346,6 @@ body > a:first-child:focus {
     top: 0.5rem;
 }
 
-/* Foco bien visible en todos los elementos (WCAG 2.4.7) */
 a:focus-visible,
 button:focus-visible,
 input:focus-visible,
@@ -362,7 +355,6 @@ summary:focus-visible {
     outline-offset: 0.2rem;
 }
 
-/* Buscador de la cabecera y de la página de búsqueda */
 form[role="search"] {
     display: flex;
     gap: 0.5rem;
@@ -401,7 +393,6 @@ main:focus {
     outline: none;
 }
 
-/* Formulario de contacto */
 main form:not([role]) {
     display: grid;
     gap: 1rem;
@@ -423,7 +414,6 @@ main form:not([role]) button {
     justify-self: start;
 }
 
-/* Migas de pan */
 body > nav {
     padding: 0.75rem max(1rem, calc((100% - 72rem) / 2)) 0;
 }
@@ -461,18 +451,15 @@ body > nav a {
     padding-inline: 0.25rem;
 }
 
-/* Resultados del buscador: la lista usa el estilo de tarjeta, pero en una sola columna */
 main > section > ol {
     flex-basis: 100%;
 }
 
-/* Pie de página con enlaces */
 body > footer a {
     display: inline-block;
     padding-block: 0.6rem;
 }
 
-/* En pantallas pequeñas la cabecera no se queda fija: ocuparía media pantalla */
 @media (max-width: 48rem) {
     body > header {
         position: static;
@@ -483,8 +470,6 @@ body > footer a {
     }
 }
 
-
-/* Aviso de cookies (js/consentimiento.js): barra en el flujo, justo bajo el enlace de salto, que no tapa nada */
 body > aside {
     position: relative;
     display: flex;
@@ -502,14 +487,12 @@ body > aside p {
     max-width: none;
 }
 
-/* Enlaces dentro de títulos: objetivo táctil de al menos 44 px */
 main h3 a {
     display: inline-block;
     min-height: 2.75rem;
     line-height: 2.75rem;
 }
 
-/* Selector de idioma: separado del menú, con un ancho fijo, para que no se mueva al cambiar de idioma */
 body > header > nav:last-child {
     order: 1;
     display: flex;
@@ -535,14 +518,12 @@ body > header > nav:last-child a {
     color: var(--suave);
 }
 
-/* En el móvil y la tableta el idioma va junto al nombre, arriba; en pantallas anchas, al final de la cabecera */
 body > header > nav[aria-label="Navegación principal"],
 body > header > nav[aria-label="Main navigation"],
 body > header > form {
     order: 2;
 }
 
-/* Por debajo de 75rem el menú ocupa su propia fila, bajo el nombre; el buscador y el idioma quedan arriba a la derecha (desde 48rem) */
 body > header > nav:first-of-type {
     flex: 1 1 100%;
 }
@@ -555,7 +536,6 @@ body > header > nav:first-of-type {
 }
 
 @media (min-width: 75rem) {
-    /* El menú arranca siempre junto al nombre, así su primer botón no cambia de sitio al cambiar de idioma */
     body > header {
         justify-content: flex-start;
         gap: 0.5rem 1rem;
@@ -571,7 +551,6 @@ body > header > nav:first-of-type {
     }
 }
 
-/* Destacado: el viaje más lejano */
 mark {
     padding: 0.1rem 0.5rem;
     border-radius: 2rem;
@@ -580,12 +559,10 @@ mark {
     font-weight: 700;
 }
 
-/* El pie del audio indica quién es el autor, bien visible */
 figcaption strong {
     color: var(--texto);
 }
 
-/* Aviso de cookies más compacto en pantallas pequeñas */
 @media (max-width: 40rem) {
     body > aside {
         padding: 0.6rem 1rem;
@@ -599,13 +576,11 @@ figcaption strong {
     }
 }
 
-/* Las abreviaturas del selector de idioma (ES, EN) no llevan subrayado punteado */
 abbr {
     text-decoration: none;
 }
 
-/* Menú con botones de ancho fijo por posición (el mayor entre el texto en español y en inglés):
-   cada botón queda en el mismo sitio en los dos idiomas y el menú no se desplaza al cambiar de idioma */
+/* Anchos fijos por posición: el mayor entre el texto en español y en inglés */
 body > header > nav:first-of-type li:nth-child(1) { flex: 0 0 3.65rem; }
 body > header > nav:first-of-type li:nth-child(2) { flex: 0 0 6.70rem; }
 body > header > nav:first-of-type li:nth-child(3) { flex: 0 0 5.25rem; }
@@ -622,7 +597,6 @@ body > header > nav:first-of-type a {
     text-align: center;
 }
 
-/* Etiqueta del buscador: presente para los lectores de pantalla y las herramientas, sin ocupar sitio a la vista (el campo ya tiene su texto de ayuda) */
 form[role="search"] > label {
     position: absolute;
     width: 1px;
