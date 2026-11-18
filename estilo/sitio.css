@@ -543,6 +543,16 @@ body > header > form {
 }
 
 @media (min-width: 64rem) {
+    /* El menú arranca siempre junto al nombre, así su primer botón no cambia de sitio al cambiar de idioma */
+    body > header {
+        justify-content: flex-start;
+        gap: 0.5rem 1rem;
+    }
+
+    body > header > nav:first-of-type {
+        margin-right: auto;
+    }
+
     body > header > nav:last-child {
         order: 3;
     }
