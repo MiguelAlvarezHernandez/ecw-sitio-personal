@@ -77,7 +77,8 @@
         aceptar.addEventListener("click", function () { guardar("si"); caja.remove(); cargarClarity(); });
         rechazar.addEventListener("click", function () { guardar("no"); caja.remove(); });
         caja.appendChild(p); caja.appendChild(aceptar); caja.appendChild(rechazar);
-        document.body.insertBefore(caja, document.body.children[1] || null);
+        var cabecera = document.querySelector("body > header");
+        if (cabecera) { cabecera.insertAdjacentElement("afterend", caja); } else { document.body.insertBefore(caja, document.body.children[1] || null); }
     }
 
     var eleccion = leer();

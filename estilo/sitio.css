@@ -590,3 +590,21 @@ figcaption strong {
 abbr {
     text-decoration: none;
 }
+
+/* Menú con botones de ancho fijo por posición (el mayor entre el texto en español y en inglés):
+   cada botón queda en el mismo sitio en los dos idiomas y el menú no se desplaza al cambiar de idioma */
+body > header > nav:first-of-type li:nth-child(1) { flex: 0 0 3.65rem; }
+body > header > nav:first-of-type li:nth-child(2) { flex: 0 0 6.70rem; }
+body > header > nav:first-of-type li:nth-child(3) { flex: 0 0 5.25rem; }
+body > header > nav:first-of-type li:nth-child(4) { flex: 0 0 4.40rem; }
+body > header > nav:first-of-type li:nth-child(5) { flex: 0 0 3.80rem; }
+body > header > nav:first-of-type li:nth-child(6) { flex: 0 0 7.05rem; }
+body > header > nav:first-of-type li:nth-child(7) { flex: 0 0 5.30rem; }
+body > header > nav:first-of-type li:nth-child(8) { flex: 0 0 3.90rem; }
+
+body > header > nav:first-of-type a {
+    justify-content: center;
+    width: 100%;
+    padding-inline: 0.3rem;
+    text-align: center;
+}
