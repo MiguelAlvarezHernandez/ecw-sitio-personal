@@ -542,7 +542,19 @@ body > header > form {
     order: 2;
 }
 
-@media (min-width: 64rem) {
+/* Por debajo de 75rem el menú ocupa su propia fila, bajo el nombre; el buscador y el idioma quedan arriba a la derecha (desde 48rem) */
+body > header > nav:first-of-type {
+    flex: 1 1 100%;
+}
+
+@media (min-width: 48.01rem) and (max-width: 74.99rem) {
+    body > header > form {
+        order: 1;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 75rem) {
     /* El menú arranca siempre junto al nombre, así su primer botón no cambia de sitio al cambiar de idioma */
     body > header {
         justify-content: flex-start;
@@ -550,6 +562,7 @@ body > header > form {
     }
 
     body > header > nav:first-of-type {
+        flex: 0 1 auto;
         margin-right: auto;
     }
 
