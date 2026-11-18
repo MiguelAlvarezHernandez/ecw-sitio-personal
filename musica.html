@@ -27,13 +27,16 @@
                 <li><a href="cine.html">Cine y series</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
                 <li><a href="ayuda.html">Ayuda</a></li>
-                <li><a href="en/music.html" hreflang="en" lang="en">English</a></li>
             </ul>
         </nav>
         <form action="buscar.html" method="get" role="search" aria-label="Buscador de la cabecera">
-            <input type="search" name="q" placeholder="Buscar…" aria-label="Buscar en la web" required />
+            <input type="search" name="q" placeholder="Buscar" aria-label="Buscar en la web" required />
             <button type="submit">Buscar</button>
         </form>
+        <nav aria-label="Idioma">
+            <span aria-current="true"><abbr title="Español">ES</abbr></span>
+            <a href="en/music.html" hreflang="en" lang="en"><abbr lang="en" title="English">EN</abbr></a>
+        </nav>
     </header>
 
     <nav aria-label="Migas de pan">
@@ -81,15 +84,15 @@
             <h2>Para escuchar</h2>
             <p>Una base de reguetón hecha con sintetizadores, para escuchar mientras navegas por la web.</p>
             <figure>
+                <figcaption>Música de <strong>ProtoplasmaKid</strong>: «Se oye libre - Fondo Random 1», 32 segundos. Es de uso libre si se cita al autor (<a href="creditos.html">licencia y créditos</a>).</figcaption>
                 <audio controls preload="metadata">
                     <source src="multimedia/audio/base-regueton.mp3" type="audio/mpeg" />
                     <source src="multimedia/audio/base-regueton.ogg" type="audio/ogg" />
                     Tu navegador no puede reproducir este audio. <a href="multimedia/audio/base-regueton.mp3">Descarga el audio en MP3</a>.
                 </audio>
-                <figcaption>Audio (32 segundos): «Se oye libre - Fondo Random 1», de ProtoplasmaKid (CC BY-SA 4.0).</figcaption>
             </figure>
             <details>
-                <summary>Transcripción</summary>
+                <summary>Leer lo que dice el audio (transcripción)</summary>
                 <p>Este audio no contiene voz: es una base de reguetón con sintetizadores y percusión.</p>
             </details>
         </section>
@@ -97,7 +100,7 @@
 
     <footer>
         <p>© 2026 Miguel Álvarez Hernández · <a href="mailto:uo295368@uniovi.es">uo295368@uniovi.es</a></p>
-        <p>Última actualización: <time datetime="2026-11-13">13 de noviembre de 2026</time></p>
+        <p>Última actualización: <time datetime="2026-11-18">18 de noviembre de 2026</time></p>
         <p><a href="ayuda.html">Ayuda y mapa del sitio</a> · <a href="buscar.html">Buscador</a> · <a href="privacidad.html">Privacidad</a> · <a href="en/music.html" hreflang="en" lang="en">English</a></p>
         <p>Perfiles: <a href="https://www.linkedin.com/in/miguelalvarezz/">LinkedIn</a> · <a href="https://github.com/miguelalvarezhernandez">GitHub</a></p>
         <p>Máster Universitario en Ingeniería Web · Universidad de Oviedo · Estándares y Computación Web</p>

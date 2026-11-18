@@ -109,7 +109,8 @@ nav a {
     color: var(--suave);
 }
 
-nav a[aria-current] {
+nav a[aria-current],
+body > header > nav:last-child span {
     background: var(--claro);
     color: var(--fondo);
     box-shadow: var(--brillo);
@@ -430,29 +431,34 @@ body > nav {
 body > nav ol {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    align-items: center;
+    gap: 0;
     margin: 0;
 }
 
 body > nav li {
+    display: flex;
+    align-items: center;
+    min-height: 2.75rem;
     padding: 0;
     background: none;
     border: 0;
     border-radius: 0;
+    line-height: 1.2;
 }
 
 body > nav li + li::before {
     content: "›";
-    margin-right: 0.5rem;
+    padding-inline: 0.5rem;
     color: var(--suave);
 }
 
 body > nav a {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     min-height: 2.75rem;
     min-width: 2.75rem;
     padding-inline: 0.25rem;
-    line-height: 2.75rem;
 }
 
 /* Resultados del buscador: la lista usa el estilo de tarjeta, pero en una sola columna */
@@ -501,4 +507,76 @@ main h3 a {
     display: inline-block;
     min-height: 2.75rem;
     line-height: 2.75rem;
+}
+
+/* Selector de idioma: separado del menú, con un ancho fijo, para que no se mueva al cambiar de idioma */
+body > header > nav:last-child {
+    order: 1;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    min-width: 6rem;
+    justify-content: flex-end;
+}
+
+body > header > nav:last-child a,
+body > header > nav:last-child span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2.75rem;
+    min-height: 2.75rem;
+    padding-inline: 0.55rem;
+    border-radius: 2rem;
+    font-weight: 700;
+}
+
+body > header > nav:last-child a {
+    color: var(--suave);
+}
+
+/* En el móvil y la tableta el idioma va junto al nombre, arriba; en pantallas anchas, al final de la cabecera */
+body > header > nav[aria-label="Navegación principal"],
+body > header > nav[aria-label="Main navigation"],
+body > header > form {
+    order: 2;
+}
+
+@media (min-width: 64rem) {
+    body > header > nav:last-child {
+        order: 3;
+    }
+}
+
+/* Destacado: el viaje más lejano */
+mark {
+    padding: 0.1rem 0.5rem;
+    border-radius: 2rem;
+    background: var(--claro);
+    color: var(--fondo);
+    font-weight: 700;
+}
+
+/* El pie del audio indica quién es el autor, bien visible */
+figcaption strong {
+    color: var(--texto);
+}
+
+/* Aviso de cookies más compacto en pantallas pequeñas */
+@media (max-width: 40rem) {
+    body > aside {
+        padding: 0.6rem 1rem;
+        gap: 0.5rem 0.75rem;
+    }
+
+    body > aside p {
+        flex: 1 1 100%;
+        font-size: 0.95rem;
+        line-height: 1.35;
+    }
+}
+
+/* Las abreviaturas del selector de idioma (ES, EN) no llevan subrayado punteado */
+abbr {
+    text-decoration: none;
 }

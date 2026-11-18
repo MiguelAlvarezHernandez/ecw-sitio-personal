@@ -110,7 +110,7 @@ var INDICE = [
   "pagina": "Música",
   "seccion": "Para escuchar",
   "url": "musica.html",
-  "texto": "Una base de reguetón hecha con sintetizadores, para escuchar mientras navegas por la web. Audio (32 segundos): «Se oye libre - Fondo Random 1», de ProtoplasmaKid (CC BY-SA 4.0). Transcripción Este audio no contiene voz: es una base de reguetón con sintetizadores y percusión."
+  "texto": "Una base de reguetón hecha con sintetizadores, para escuchar mientras navegas por la web. Leer lo que dice el audio (transcripción) Este audio no contiene voz: es una base de reguetón con sintetizadores y percusión."
  },
  {
   "idioma": "es",
@@ -159,7 +159,7 @@ var INDICE = [
   "pagina": "Viajes",
   "seccion": "Donde he estado",
   "url": "viajes.html",
-  "texto": "España Europa En casa Mi país y el que más conozco: de norte a sur, siempre hay un rincón nuevo por descubrir. Portugal Europa Vecinos Tan cerca y tan distinto: su costa, su gastronomía y su gente hacen que siempre quiera volver. Francia Europa Cultura Historia, arte y ciudades con un encanto especial al otro lado de los Pirineos. Andorra Europa Montaña Un pequeño país entre montañas, perfecto para una escapada en plenos Pirineos. Irlanda Europa Paisajes verdes Paisajes verdes, acantilados y un ambiente único en sus calles y sus pubs. México América Mi viaje más lejano Al otro lado del Atlántico: colores, sabores y una cultura que te atrapa desde el primer día."
+  "texto": "España Europa En casa Idioma: español Mi país y el que más conozco: de norte a sur, siempre hay un rincón nuevo por descubrir. Portugal Europa Vecinos Idioma: portugués Tan cerca y tan distinto: su costa, su gastronomía y su gente hacen que siempre quiera volver. Francia Europa Cultura Idioma: francés Historia, arte y ciudades con un encanto especial al otro lado de los Pirineos. Andorra Europa Montaña Idioma: catalán Un pequeño país entre montañas, perfecto para una escapada en plenos Pirineos. Irlanda Europa Paisajes verdes Idioma: irlandés e inglés Paisajes verdes, acantilados y un ambiente único en sus calles y sus pubs. México América Idioma: español Al otro lado del Atlántico: colores, sabores y una cultura que te atrapa desde el primer día."
  },
  {
   "idioma": "es",
@@ -299,7 +299,7 @@ var INDICE = [
   "pagina": "Music",
   "seccion": "Something to listen to",
   "url": "en/music.html",
-  "texto": "A reggaeton beat made with synthesizers, to listen to while you browse the site. Audio (32 seconds): “Se oye libre - Fondo Random 1”, by ProtoplasmaKid (CC BY-SA 4.0). Transcript This audio contains no voice: it is a reggaeton beat with synthesizers and percussion."
+  "texto": "A reggaeton beat made with synthesizers, to listen to while you browse the site. Read what the audio says (transcript) This audio contains no voice: it is a reggaeton beat with synthesizers and percussion."
  },
  {
   "idioma": "en",
@@ -341,7 +341,7 @@ var INDICE = [
   "pagina": "Travel",
   "seccion": "Where I have been",
   "url": "en/travel.html",
-  "texto": "Spain Europe At home My country and the one I know best: from north to south, there is always a new corner to discover. Portugal Europe Neighbours So close and so different: its coast, its food and its people make me always want to go back. France Europe Culture History, art and cities with a special charm on the other side of the Pyrenees. Andorra Europe Mountains A small country among the mountains, perfect for a getaway in the heart of the Pyrenees. Ireland Europe Green landscapes Green landscapes, cliffs and a unique atmosphere in its streets and pubs. Mexico America My farthest trip Across the Atlantic: colours, flavours and a culture that hooks you from day one."
+  "texto": "Spain Europe At home Language: Spanish My country and the one I know best: from north to south, there is always a new corner to discover. Portugal Europe Neighbours Language: Portuguese So close and so different: its coast, its food and its people make me always want to go back. France Europe Culture Language: French History, art and cities with a special charm on the other side of the Pyrenees. Andorra Europe Mountains Language: Catalan A small country among the mountains, perfect for a getaway in the heart of the Pyrenees. Ireland Europe Green landscapes Language: Irish and English Green landscapes, cliffs and a unique atmosphere in its streets and pubs. Mexico America Language: Spanish Across the Atlantic: colours, flavours and a culture that hooks you from day one."
  },
  {
   "idioma": "en",
